@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "silly_oddities:item/light_blue_bundle"
+  },
+  "overrides": [
+    { "predicate": { "filled": 0.0000001 }, "model": "silly_oddities:item/light_blue_bundle_filled" }
+  ]
+}

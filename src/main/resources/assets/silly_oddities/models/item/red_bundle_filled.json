@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "silly_oddities:item/red_bundle_filled"
+  }
+}

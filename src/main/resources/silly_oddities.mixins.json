@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "mod.maxbogomol.silly_oddities.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "silly_oddities.refmap.json",
+  "mixins": [
+    "common.BundleItemMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

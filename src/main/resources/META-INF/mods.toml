@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-2.0"
+
+[[mods]]
+    modId="silly_oddities"
+    version="${file.jarVersion}"
+    updateJSONURL = "https://raw.githubusercontent.com/MaxBogomol/SillyOddities/refs/heads/master/update.json"
+    displayName="Silly Oddities"
+    logoFile="silly_oddities.png"
+    authors="MaxBogomol"
+    description="Adds silly things"
+
+[[dependencies.silly_oddities]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.silly_oddities]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.silly_oddities]]
+    modId = "fluffy_fur"
+    mandatory = true
+    versionRange = "[1.20.1-0.1.6,)"
+    ordering = "AFTER"
+    side = "BOTH"

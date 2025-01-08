@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bundle",
+    "silly_oddities:white_bundle",
+    "silly_oddities:light_gray_bundle",
+    "silly_oddities:gray_bundle",
+    "silly_oddities:black_bundle",
+    "silly_oddities:brown_bundle",
+    "silly_oddities:red_bundle",
+    "silly_oddities:orange_bundle",
+    "silly_oddities:yellow_bundle",
+    "silly_oddities:lime_bundle",
+    "silly_oddities:green_bundle",
+    "silly_oddities:cyan_bundle",
+    "silly_oddities:light_blue_bundle",
+    "silly_oddities:blue_bundle",
+    "silly_oddities:purple_bundle",
+    "silly_oddities:magenta_bundle",
+    "silly_oddities:pink_bundle",
+    "silly_oddities:rainbow_bundle"
+  ]
+}
