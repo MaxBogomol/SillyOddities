@@ -1,8 +1,10 @@
 package mod.maxbogomol.silly_oddities.registry.common.item;
 
 import mod.maxbogomol.silly_oddities.SillyOddities;
+import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.BundleItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +36,20 @@ public class SillyOdditiesItems {
     public static final RegistryObject<Item> MAGENTA_BUNDLE = ITEMS.register("magenta_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> PINK_BUNDLE = ITEMS.register("pink_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> RAINBOW_BUNDLE = ITEMS.register("rainbow_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> TUFF_STAIRS = ITEMS.register("tuff_stairs", () -> new BlockItem(SillyOdditiesBlocks.TUFF_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUFF_SLAB = ITEMS.register("tuff_slab", () -> new BlockItem(SillyOdditiesBlocks.TUFF_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUFF_WALL = ITEMS.register("tuff_wall", () -> new BlockItem(SillyOdditiesBlocks.TUFF_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CHISELED_TUFF = ITEMS.register("chiseled_tuff", () -> new BlockItem(SillyOdditiesBlocks.CHISELED_TUFF.get(), new Item.Properties()));
+    public static final RegistryObject<Item> POLISHED_TUFF = ITEMS.register("polished_tuff", () -> new BlockItem(SillyOdditiesBlocks.POLISHED_TUFF.get(), new Item.Properties()));
+    public static final RegistryObject<Item> POLISHED_TUFF_STAIRS = ITEMS.register("polished_tuff_stairs", () -> new BlockItem(SillyOdditiesBlocks.POLISHED_TUFF_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> POLISHED_TUFF_SLAB = ITEMS.register("polished_tuff_slab", () -> new BlockItem(SillyOdditiesBlocks.POLISHED_TUFF_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> POLISHED_TUFF_WALL = ITEMS.register("polished_tuff_wall", () -> new BlockItem(SillyOdditiesBlocks.POLISHED_TUFF_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUFF_BRICKS = ITEMS.register("tuff_bricks", () -> new BlockItem(SillyOdditiesBlocks.TUFF_BRICKS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUFF_BRICKS_STAIRS = ITEMS.register("tuff_bricks_stairs", () -> new BlockItem(SillyOdditiesBlocks.TUFF_BRICKS_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUFF_BRICKS_SLAB = ITEMS.register("tuff_bricks_slab", () -> new BlockItem(SillyOdditiesBlocks.TUFF_BRICKS_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUFF_BRICKS_WALL = ITEMS.register("tuff_bricks_wall", () -> new BlockItem(SillyOdditiesBlocks.TUFF_BRICKS_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CHISELED_TUFF_BRICKS = ITEMS.register("chiseled_tuff_bricks", () -> new BlockItem(SillyOdditiesBlocks.CHISELED_TUFF_BRICKS.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

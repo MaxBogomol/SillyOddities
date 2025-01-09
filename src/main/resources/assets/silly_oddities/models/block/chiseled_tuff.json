@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "silly_oddities:block/chiseled_tuff_top",
+    "side": "silly_oddities:block/chiseled_tuff"
+  }
+}

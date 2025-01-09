@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "silly_oddities:polished_tuff"
+  },
+  "result": "silly_oddities:tuff_bricks_wall"
+}

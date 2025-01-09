@@ -1,9 +1,10 @@
 package mod.maxbogomol.silly_oddities;
 
-import mod.maxbogomol.fluffy_fur.FluffyFur;
 import mod.maxbogomol.fluffy_fur.common.proxy.ClientProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ISidedProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ServerProxy;
+import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
+import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesCreativeTabs;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,9 +33,8 @@ public class SillyOddities {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         SillyOdditiesItems.register(eventBus);
-/*
-        PurrfectBlocks.register(eventBus);
-        PurrfectBlockEnteties.register(eventBus);*/
+        SillyOdditiesBlocks.register(eventBus);
+        SillyOdditiesSounds.register(eventBus);
 
         DistExecutor.unsafeCallWhenOn(Dist.CLIENT, () -> () -> {
             SillyOdditiesClient.ClientOnly.clientInit();
@@ -50,12 +50,11 @@ public class SillyOddities {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        //hi();
+        hi();
     }
 
     public static void hi() {
-        FluffyFur.LOGGER.info("Hi Purrfect! You are very cute :3");
-        LOGGER.info("OMG! Fluffy Fur! Haiii I love you very much :3");
+
     }
 
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)

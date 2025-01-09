@@ -19,6 +19,20 @@
   "item.silly_oddities.magenta_bundle": "Magenta Bundle",
   "item.silly_oddities.pink_bundle": "Pink Bundle",
   "item.silly_oddities.rainbow_bundle": "Rainbow Bundle",
+
+  "block.silly_oddities.tuff_stairs": "Tuff Stairs",
+  "block.silly_oddities.tuff_slab": "Tuff Slab",
+  "block.silly_oddities.tuff_wall": "Tuff Wall",
+  "block.silly_oddities.chiseled_tuff": "Chiseled Tuff",
+  "block.silly_oddities.polished_tuff": "Polished Tuff",
+  "block.silly_oddities.polished_tuff_stairs": "Polished Tuff Stairs",
+  "block.silly_oddities.polished_tuff_slab": "Polished Tuff Slab",
+  "block.silly_oddities.polished_tuff_wall": "Polished Tuff Wall",
+  "block.silly_oddities.tuff_bricks": "Tuff Bricks",
+  "block.silly_oddities.tuff_bricks_stairs": "Tuff Bricks Stairs",
+  "block.silly_oddities.tuff_bricks_slab": "Tuff Bricks Slab",
+  "block.silly_oddities.tuff_bricks_wall": "Tuff Bricks Wall",
+  "block.silly_oddities.chiseled_tuff_bricks": "Chiseled Tuff Bricks",
   
   "_comment_2": "Menu",
   "mod_description.silly_oddities": ""

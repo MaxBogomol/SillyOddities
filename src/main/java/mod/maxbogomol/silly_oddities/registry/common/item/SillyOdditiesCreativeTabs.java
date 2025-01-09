@@ -50,6 +50,21 @@ public class SillyOdditiesCreativeTabs {
             event.accept(SillyOdditiesItems.MAGENTA_BUNDLE);
             event.accept(SillyOdditiesItems.PINK_BUNDLE);
             event.accept(SillyOdditiesItems.RAINBOW_BUNDLE);
+
+            event.accept(Items.TUFF);
+            event.accept(SillyOdditiesItems.TUFF_STAIRS);
+            event.accept(SillyOdditiesItems.TUFF_SLAB);
+            event.accept(SillyOdditiesItems.TUFF_WALL);
+            event.accept(SillyOdditiesItems.CHISELED_TUFF);
+            event.accept(SillyOdditiesItems.POLISHED_TUFF);
+            event.accept(SillyOdditiesItems.POLISHED_TUFF_STAIRS);
+            event.accept(SillyOdditiesItems.POLISHED_TUFF_SLAB);
+            event.accept(SillyOdditiesItems.POLISHED_TUFF_WALL);
+            event.accept(SillyOdditiesItems.TUFF_BRICKS);
+            event.accept(SillyOdditiesItems.TUFF_BRICKS_STAIRS);
+            event.accept(SillyOdditiesItems.TUFF_BRICKS_SLAB);
+            event.accept(SillyOdditiesItems.TUFF_BRICKS_WALL);
+            event.accept(SillyOdditiesItems.CHISELED_TUFF_BRICKS);
         }
     }
 }

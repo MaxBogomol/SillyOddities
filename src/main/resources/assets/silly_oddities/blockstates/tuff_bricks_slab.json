@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silly_oddities:block/tuff_bricks_slab"
+    },
+    "type=double": {
+      "model": "silly_oddities:block/tuff_bricks"
+    },
+    "type=top": {
+      "model": "silly_oddities:block/tuff_bricks_slab_top"
+    }
+  }
+}

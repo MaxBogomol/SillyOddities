@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "silly_oddities:block/polished_tuff",
+    "top": "silly_oddities:block/polished_tuff",
+    "side": "silly_oddities:block/polished_tuff"
+  }
+}

@@ -20,6 +20,20 @@
   "item.silly_oddities.pink_bundle": "Розовый мешок",
   "item.silly_oddities.rainbow_bundle": "Радужный мешок",
 
+  "block.silly_oddities.tuff_stairs": "Туфовые ступеньки",
+  "block.silly_oddities.tuff_slab": "Туфовая плита",
+  "block.silly_oddities.tuff_wall": "Туфовая ограда",
+  "block.silly_oddities.chiseled_tuff": "Резной туф",
+  "block.silly_oddities.polished_tuff": "Полированный туф",
+  "block.silly_oddities.polished_tuff_stairs": "Полированные туфовые ступеньки",
+  "block.silly_oddities.polished_tuff_slab": "Полированная туфовая плита",
+  "block.silly_oddities.polished_tuff_wall": "Полированная туфовая ограда",
+  "block.silly_oddities.tuff_bricks": "Туфовые кирпичи",
+  "block.silly_oddities.tuff_bricks_stairs": "Туфовые кирпичные ступеньки",
+  "block.silly_oddities.tuff_bricks_slab": "Туфовая кирпичная плита",
+  "block.silly_oddities.tuff_bricks_wall": "Туфовая кирпичная ограда",
+  "block.silly_oddities.chiseled_tuff_bricks": "Резные туфовые кирпичи",
+
   "_comment_2": "Menu",
   "mod_description.silly_oddities": ""
 }

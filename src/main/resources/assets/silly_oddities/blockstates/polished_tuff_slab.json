@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "silly_oddities:block/polished_tuff_slab"
+    },
+    "type=double": {
+      "model": "silly_oddities:block/polished_tuff"
+    },
+    "type=top": {
+      "model": "silly_oddities:block/polished_tuff_slab_top"
+    }
+  }
+}

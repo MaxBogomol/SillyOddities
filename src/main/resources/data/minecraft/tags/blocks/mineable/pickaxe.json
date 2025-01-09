@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "silly_oddities:tuff_stairs",
+    "silly_oddities:tuff_slab",
+    "silly_oddities:tuff_wall",
+    "silly_oddities:chiseled_tuff",
+    "silly_oddities:polished_tuff",
+    "silly_oddities:polished_tuff_stairs",
+    "silly_oddities:polished_tuff_slab",
+    "silly_oddities:polished_tuff_wall",
+    "silly_oddities:tuff_bricks",
+    "silly_oddities:tuff_bricks_stairs",
+    "silly_oddities:tuff_bricks_slab",
+    "silly_oddities:tuff_bricks_wall",
+    "silly_oddities:chiseled_tuff_bricks"
+  ]
+}
