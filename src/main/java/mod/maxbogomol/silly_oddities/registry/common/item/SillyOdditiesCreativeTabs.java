@@ -65,6 +65,51 @@ public class SillyOdditiesCreativeTabs {
             event.accept(SillyOdditiesItems.TUFF_BRICKS_SLAB);
             event.accept(SillyOdditiesItems.TUFF_BRICKS_WALL);
             event.accept(SillyOdditiesItems.CHISELED_TUFF_BRICKS);
+
+            event.accept(SillyOdditiesItems.CHISELED_COPPER);
+            event.accept(SillyOdditiesItems.EXPOSED_CHISELED_COPPER);
+            event.accept(SillyOdditiesItems.WEATHERED_CHISELED_COPPER);
+            event.accept(SillyOdditiesItems.OXIDIZED_CHISELED_COPPER);
+            event.accept(SillyOdditiesItems.WAXED_CHISELED_COPPER);
+            event.accept(SillyOdditiesItems.WAXED_EXPOSED_CHISELED_COPPER);
+            event.accept(SillyOdditiesItems.WAXED_WEATHERED_CHISELED_COPPER);
+            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_CHISELED_COPPER);
+
+            event.accept(SillyOdditiesItems.COPPER_GRATE);
+            event.accept(SillyOdditiesItems.EXPOSED_COPPER_GRATE);
+            event.accept(SillyOdditiesItems.WEATHERED_COPPER_GRATE);
+            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_GRATE);
+            event.accept(SillyOdditiesItems.WAXED_COPPER_GRATE);
+            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_GRATE);
+            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_GRATE);
+            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_GRATE);
+
+            event.accept(SillyOdditiesItems.COPPER_DOOR);
+            event.accept(SillyOdditiesItems.EXPOSED_COPPER_DOOR);
+            event.accept(SillyOdditiesItems.WEATHERED_COPPER_DOOR);
+            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_DOOR);
+            event.accept(SillyOdditiesItems.WAXED_COPPER_DOOR);
+            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_DOOR);
+            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_DOOR);
+            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_DOOR);
+
+            event.accept(SillyOdditiesItems.COPPER_TRAPDOOR);
+            event.accept(SillyOdditiesItems.EXPOSED_COPPER_TRAPDOOR);
+            event.accept(SillyOdditiesItems.WEATHERED_COPPER_TRAPDOOR);
+            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_TRAPDOOR);
+            event.accept(SillyOdditiesItems.WAXED_COPPER_TRAPDOOR);
+            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_TRAPDOOR);
+            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_TRAPDOOR);
+            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_TRAPDOOR);
+
+            event.accept(SillyOdditiesItems.COPPER_BULB);
+            event.accept(SillyOdditiesItems.EXPOSED_COPPER_BULB);
+            event.accept(SillyOdditiesItems.WEATHERED_COPPER_BULB);
+            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_BULB);
+            event.accept(SillyOdditiesItems.WAXED_COPPER_BULB);
+            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_BULB);
+            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
+            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
         }
     }
 }

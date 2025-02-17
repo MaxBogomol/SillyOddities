@@ -51,6 +51,8 @@ public class SillyOddities {
 
     private void setup(final FMLCommonSetupEvent event) {
         hi();
+
+        SillyOdditiesBlocks.setupBlocks();
     }
 
     public static void hi() {

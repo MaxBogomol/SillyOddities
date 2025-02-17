@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+	 "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "silly_oddities:block/oxidized_copper_grate"
+  }
+}

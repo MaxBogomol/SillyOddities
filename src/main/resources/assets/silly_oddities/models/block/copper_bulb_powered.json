@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "silly_oddities:block/copper_bulb_powered"
+  }
+}

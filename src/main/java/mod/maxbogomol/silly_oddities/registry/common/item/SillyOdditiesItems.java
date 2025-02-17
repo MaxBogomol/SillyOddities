@@ -51,6 +51,51 @@ public class SillyOdditiesItems {
     public static final RegistryObject<Item> TUFF_BRICKS_WALL = ITEMS.register("tuff_bricks_wall", () -> new BlockItem(SillyOdditiesBlocks.TUFF_BRICKS_WALL.get(), new Item.Properties()));
     public static final RegistryObject<Item> CHISELED_TUFF_BRICKS = ITEMS.register("chiseled_tuff_bricks", () -> new BlockItem(SillyOdditiesBlocks.CHISELED_TUFF_BRICKS.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> CHISELED_COPPER = ITEMS.register("chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.CHISELED_COPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> EXPOSED_CHISELED_COPPER = ITEMS.register("exposed_chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.EXPOSED_CHISELED_COPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WEATHERED_CHISELED_COPPER = ITEMS.register("weathered_chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.WEATHERED_CHISELED_COPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> OXIDIZED_CHISELED_COPPER = ITEMS.register("oxidized_chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.OXIDIZED_CHISELED_COPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_CHISELED_COPPER = ITEMS.register("waxed_chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.WAXED_CHISELED_COPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_EXPOSED_CHISELED_COPPER = ITEMS.register("waxed_exposed_chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.WAXED_EXPOSED_CHISELED_COPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_WEATHERED_CHISELED_COPPER = ITEMS.register("waxed_weathered_chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.WAXED_WEATHERED_CHISELED_COPPER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_OXIDIZED_CHISELED_COPPER = ITEMS.register("waxed_oxidized_chiseled_copper", () -> new BlockItem(SillyOdditiesBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> COPPER_GRATE = ITEMS.register("copper_grate", () -> new BlockItem(SillyOdditiesBlocks.COPPER_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> EXPOSED_COPPER_GRATE = ITEMS.register("exposed_copper_grate", () -> new BlockItem(SillyOdditiesBlocks.EXPOSED_COPPER_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WEATHERED_COPPER_GRATE = ITEMS.register("weathered_copper_grate", () -> new BlockItem(SillyOdditiesBlocks.WEATHERED_COPPER_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> OXIDIZED_COPPER_GRATE = ITEMS.register("oxidized_copper_grate", () -> new BlockItem(SillyOdditiesBlocks.OXIDIZED_COPPER_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_COPPER_GRATE = ITEMS.register("waxed_copper_grate", () -> new BlockItem(SillyOdditiesBlocks.WAXED_COPPER_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_GRATE = ITEMS.register("waxed_exposed_copper_grate", () -> new BlockItem(SillyOdditiesBlocks.WAXED_EXPOSED_COPPER_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_GRATE = ITEMS.register("waxed_weathered_copper_grate", () -> new BlockItem(SillyOdditiesBlocks.WAXED_WEATHERED_COPPER_GRATE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_GRATE = ITEMS.register("waxed_oxidized_copper_grate", () -> new BlockItem(SillyOdditiesBlocks.WAXED_OXIDIZED_COPPER_GRATE.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> COPPER_DOOR = ITEMS.register("copper_door", () -> new BlockItem(SillyOdditiesBlocks.COPPER_DOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> EXPOSED_COPPER_DOOR = ITEMS.register("exposed_copper_door", () -> new BlockItem(SillyOdditiesBlocks.EXPOSED_COPPER_DOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WEATHERED_COPPER_DOOR = ITEMS.register("weathered_copper_door", () -> new BlockItem(SillyOdditiesBlocks.WEATHERED_COPPER_DOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> OXIDIZED_COPPER_DOOR = ITEMS.register("oxidized_copper_door", () -> new BlockItem(SillyOdditiesBlocks.OXIDIZED_COPPER_DOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_COPPER_DOOR = ITEMS.register("waxed_copper_door", () -> new BlockItem(SillyOdditiesBlocks.WAXED_COPPER_DOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_DOOR = ITEMS.register("waxed_exposed_copper_door", () -> new BlockItem(SillyOdditiesBlocks.WAXED_EXPOSED_COPPER_DOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_DOOR = ITEMS.register("waxed_weathered_copper_door", () -> new BlockItem(SillyOdditiesBlocks.WAXED_WEATHERED_COPPER_DOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_DOOR = ITEMS.register("waxed_oxidized_copper_door", () -> new BlockItem(SillyOdditiesBlocks.WAXED_OXIDIZED_COPPER_DOOR.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> COPPER_TRAPDOOR = ITEMS.register("copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.COPPER_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> EXPOSED_COPPER_TRAPDOOR = ITEMS.register("exposed_copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.EXPOSED_COPPER_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WEATHERED_COPPER_TRAPDOOR = ITEMS.register("weathered_copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.WEATHERED_COPPER_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> OXIDIZED_COPPER_TRAPDOOR = ITEMS.register("oxidized_copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.OXIDIZED_COPPER_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_COPPER_TRAPDOOR = ITEMS.register("waxed_copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.WAXED_COPPER_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_TRAPDOOR = ITEMS.register("waxed_exposed_copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_TRAPDOOR = ITEMS.register("waxed_weathered_copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_TRAPDOOR = ITEMS.register("waxed_oxidized_copper_trapdoor", () -> new BlockItem(SillyOdditiesBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> COPPER_BULB = ITEMS.register("copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.COPPER_BULB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> EXPOSED_COPPER_BULB = ITEMS.register("exposed_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.EXPOSED_COPPER_BULB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WEATHERED_COPPER_BULB = ITEMS.register("weathered_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WEATHERED_COPPER_BULB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> OXIDIZED_COPPER_BULB = ITEMS.register("oxidized_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.OXIDIZED_COPPER_BULB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_COPPER_BULB = ITEMS.register("waxed_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_COPPER_BULB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_BULB = ITEMS.register("waxed_exposed_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_EXPOSED_COPPER_BULB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_BULB = ITEMS.register("waxed_weathered_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_WEATHERED_COPPER_BULB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_BULB = ITEMS.register("waxed_oxidized_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_OXIDIZED_COPPER_BULB.get(), new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
