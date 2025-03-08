@@ -85,13 +85,13 @@ dependencies {
     implementation fg.deobf("mod.maxbogomol.purrfect:purrfect:${minecraft_version}-${purrfect_version}")
 
     implementation fg.deobf("top.theillusivec4.curios:curios-forge:5.9.1+1.20.1")
-    implementation fg.deobf("mezz.jei:jei-1.20.1-forge:15.8.2.25")
-    implementation fg.deobf("curse.maven:jade-324717:5493390")
+    implementation fg.deobf("mezz.jei:jei-1.20.1-forge:15.20.0.106")
+    implementation fg.deobf("curse.maven:jade-324717:6271651")
 
-    implementation fg.deobf("curse.maven:farmers-delight-398521:5051242")
-    implementation fg.deobf("curse.maven:create-328085:5838779")
-    implementation fg.deobf("curse.maven:malum-484064:5929596")
-    implementation fg.deobf("curse.maven:lodestone-616457:5929869")
+    implementation fg.deobf("curse.maven:create-328085:6271934")
+    implementation fg.deobf("curse.maven:farmers-delight-398521:6154802")
+    implementation fg.deobf("curse.maven:malum-484064:6213791")
+    implementation fg.deobf("curse.maven:lodestone-616457:6213794")
 
     runtimeOnly fg.deobf("curse.maven:fusion-connected-textures-854949:5129294")
     runtimeOnly fg.deobf("curse.maven:configured-457570:5180900")
