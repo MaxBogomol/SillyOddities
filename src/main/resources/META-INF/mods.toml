@@ -31,3 +31,17 @@ license="GPL-2.0"
     versionRange = "[1.20.1-0.1.6,)"
     ordering = "AFTER"
     side = "BOTH"
+
+[[dependencies.silly_oddities]]
+    modId = "wizards_reborn"
+    mandatory = false
+    versionRange = "[1.20.1-0.2.9,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.silly_oddities]]
+    modId = "malum"
+    mandatory = false
+    versionRange = "[1.20.1-1.6.6,)"
+    ordering = "AFTER"
+    side = "BOTH"

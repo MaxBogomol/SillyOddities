@@ -2,5 +2,8 @@
     "pack": {
         "description": "Silly Oddities resources",
         "pack_format": 10
+    },
+    "fusion": {
+        "overrides_folder": "fusion"
     }
 }

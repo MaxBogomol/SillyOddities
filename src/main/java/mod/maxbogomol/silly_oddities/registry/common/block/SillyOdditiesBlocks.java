@@ -3,6 +3,7 @@ package mod.maxbogomol.silly_oddities.registry.common.block;
 import mod.maxbogomol.fluffy_fur.registry.common.block.FluffyFurBlocks;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.common.block.copper.*;
+import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -115,5 +116,9 @@ public class SillyOdditiesBlocks {
         FluffyFurBlocks.waxedCopper(EXPOSED_COPPER_BULB.get(), WAXED_EXPOSED_COPPER_BULB.get());
         FluffyFurBlocks.waxedCopper(WEATHERED_COPPER_BULB.get(), WAXED_WEATHERED_COPPER_BULB.get());
         FluffyFurBlocks.waxedCopper(OXIDIZED_COPPER_BULB.get(), WAXED_OXIDIZED_COPPER_BULB.get());
+
+        if (SillyOdditiesWizardsReborn.isLoaded()) {
+            SillyOdditiesWizardsReborn.LoadedOnly.setupBlocks();
+        }
     }
 }
