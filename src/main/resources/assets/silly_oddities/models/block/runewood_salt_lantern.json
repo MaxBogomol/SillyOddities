@@ -1,0 +1,8 @@
+{
+	"parent": "wizards_reborn:block/salt_lantern",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"lantern": "silly_oddities:block/runewood_salt_lantern",
+		"particle": "malum:block/runewood/runewood_planks"
+	}
+}

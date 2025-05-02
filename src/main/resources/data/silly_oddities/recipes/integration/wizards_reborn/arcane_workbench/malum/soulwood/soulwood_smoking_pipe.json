@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+        }
+      ],
+      "recipe": {
+         "type": "wizards_reborn:arcane_workbench",
+         "pattern": [
+           "#__",
+           "###",
+           "___",
+           "C_A_"
+         ],
+         "key": {
+           "#": {
+             "tag": "malum:soulwood_planks"
+           },
+           "A": {
+             "item": "wizards_reborn:alchemy_calx"
+           },
+           "C": {
+             "item": "wizards_reborn:natural_calx"
+           }
+         },
+         "output": {
+           "item": "silly_oddities:soulwood_smoking_pipe"
+         },
+         "wissen": 1000
+      }
+    }
+  ]
+}

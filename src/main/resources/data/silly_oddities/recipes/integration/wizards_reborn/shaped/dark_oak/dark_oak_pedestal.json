@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "group": "arcane_pedestal",
+         "pattern": [
+           "#W#",
+           " W ",
+           "#W#"
+         ],
+         "key": {
+           "#": {
+             "tag": "silly_oddities:dark_oak_slabs"
+           },
+           "W": {
+             "tag": "silly_oddities:dark_oak_planks"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:dark_oak_pedestal"
+         }
+      }
+    }
+  ]
+}

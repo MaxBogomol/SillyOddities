@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east":  { "model": "silly_oddities:block/cherry_salt_campfire", "y": 90 },
+    "facing=west":  { "model": "silly_oddities:block/cherry_salt_campfire", "y": 270 },
+    "facing=south": { "model": "silly_oddities:block/cherry_salt_campfire", "y": 180 },
+    "facing=north": { "model": "silly_oddities:block/cherry_salt_campfire" }
+  }
+}

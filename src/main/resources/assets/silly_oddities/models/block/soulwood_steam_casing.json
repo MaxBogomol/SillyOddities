@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/casing_block",
+	"textures": {
+		"case": "silly_oddities:block/soulwood_steam_casing",
+		"particle": "malum:block/soulwood/soulwood_planks"
+	}
+}

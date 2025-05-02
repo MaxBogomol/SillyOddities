@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+        }
+      ],
+      "recipe": {
+         "type": "wizards_reborn:arcane_workbench",
+         "pattern": [
+           "#G#",
+           "G_G",
+           "#G#",
+           "____"
+         ],
+         "key": {
+           "#": {
+             "tag": "malum:runewood_slabs"
+           },
+           "G": {
+             "tag": "wizards_reborn:arcane_gold_nugget"
+           }
+         },
+         "output": {
+           "item": "silly_oddities:runewood_frame"
+         },
+         "wissen": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_connection_alt",
+	"textures": {
+		"particle": "minecraft:block/cherry_planks",
+		"pipe": "silly_oddities:block/cherry_planks_baulk"
+	}
+}

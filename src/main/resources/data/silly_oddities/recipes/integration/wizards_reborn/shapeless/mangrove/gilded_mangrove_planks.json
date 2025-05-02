@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shapeless",
+         "category": "building",
+         "group": "gilded",
+         "ingredients": [
+           {
+             "item": "minecraft:mangrove_planks"
+           },
+           {
+             "tag": "wizards_reborn:arcane_gold_nugget"
+           }
+         ],
+         "result": {
+           "item": "silly_oddities:gilded_mangrove_planks"
+         }
+      }
+    }
+  ]
+}

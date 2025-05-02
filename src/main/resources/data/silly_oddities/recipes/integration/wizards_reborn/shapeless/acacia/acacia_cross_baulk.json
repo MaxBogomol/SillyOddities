@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shapeless",
+         "category": "building",
+         "group": "cross_baulk",
+         "ingredients": [
+           {
+             "item": "silly_oddities:acacia_baulk"
+           },
+           {
+             "item": "wizards_reborn:arcane_linen"
+           }
+         ],
+         "result": {
+           "item": "silly_oddities:acacia_cross_baulk",
+           "count": 1
+         }
+      }
+    }
+  ]
+}

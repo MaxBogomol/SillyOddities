@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:item/smoking_pipe",
+	"textures": {
+		"pipe": "silly_oddities:item/oak_smoking_pipe",
+		"particle": "silly_oddities:item/oak_smoking_pipe"
+	}
+}

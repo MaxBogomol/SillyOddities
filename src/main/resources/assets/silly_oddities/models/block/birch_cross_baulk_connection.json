@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_connection",
+	"textures": {
+		"particle": "minecraft:block/birch_log",
+		"pipe": "silly_oddities:block/birch_baulk"
+	}
+}

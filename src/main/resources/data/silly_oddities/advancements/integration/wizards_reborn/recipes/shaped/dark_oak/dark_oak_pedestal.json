@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "advancement": {
+         "parent": "minecraft:recipes/root",
+         "criteria": {
+           "has_dark_oak_planks": {
+             "conditions": {
+               "items": [
+                 {
+                   "tag": "silly_oddities:dark_oak_planks"
+                 }
+               ]
+             },
+             "trigger": "minecraft:inventory_changed"
+           }
+         },
+         "requirements": [
+           [
+             "has_dark_oak_planks"
+           ]
+         ],
+         "rewards": {
+           "recipes": [
+             "silly_oddities:integration/wizards_reborn/shaped/dark_oak/dark_oak_pedestal"
+           ]
+         },
+         "sends_telemetry_event": false
+       }
+    }
+  ]
+}

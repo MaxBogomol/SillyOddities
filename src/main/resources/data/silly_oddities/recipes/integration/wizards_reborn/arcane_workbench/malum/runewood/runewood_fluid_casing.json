@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+        }
+      ],
+      "recipe": {
+         "type": "wizards_reborn:arcane_workbench",
+         "pattern": [
+           "GGG",
+           "_#_",
+           "GGG",
+           "____"
+         ],
+         "key": {
+           "#": {
+             "item": "silly_oddities:runewood_casing"
+           },
+           "G": {
+             "item": "wizards_reborn:fluid_pipe"
+           }
+         },
+         "output": {
+           "item": "silly_oddities:runewood_fluid_casing"
+         },
+         "wissen": 100
+      }
+    }
+  ]
+}

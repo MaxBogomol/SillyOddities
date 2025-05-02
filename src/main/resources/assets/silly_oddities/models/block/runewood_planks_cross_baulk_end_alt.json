@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_end_alt",
+	"textures": {
+		"particle": "malum:block/runewood/runewood_planks",
+		"pipe": "silly_oddities:block/runewood_planks_baulk"
+	}
+}

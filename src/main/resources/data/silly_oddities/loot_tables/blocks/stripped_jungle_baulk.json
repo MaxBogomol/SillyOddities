@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "fluffy_fur:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wizards_reborn"
+    }
+  ],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "silly_oddities:stripped_jungle_baulk"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

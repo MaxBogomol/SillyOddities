@@ -1,0 +1,181 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "silly_oddities:oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_spruce_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_birch_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_jungle_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_acacia_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_dark_oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_mangrove_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_cherry_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_bamboo_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_mosaic_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_crimson_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_warped_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_runewood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_boards_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_tiles_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_soulwood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_boards_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_tiles_cross_baulk",
+      "required": false
+    }
+  ]
+}

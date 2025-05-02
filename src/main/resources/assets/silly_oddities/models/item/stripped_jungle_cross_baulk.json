@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_inventory",
+	"textures": {
+		"block": "silly_oddities:block/stripped_jungle_baulk",
+		"particle": "minecraft:block/stripped_jungle_log"
+	}
+}

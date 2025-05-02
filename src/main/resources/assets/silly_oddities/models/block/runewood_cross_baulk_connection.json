@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_connection",
+	"textures": {
+		"particle": "malum:block/runewood/runewood_log",
+		"pipe": "silly_oddities:block/runewood_baulk"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/baulk",
+	"textures": {
+		"block": "silly_oddities:block/warped_baulk",
+		"particle": "minecraft:block/warped_stem"
+	}
+}

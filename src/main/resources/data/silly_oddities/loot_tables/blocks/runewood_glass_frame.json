@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "fluffy_fur:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wizards_reborn"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "silly_oddities:runewood_glass_frame"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

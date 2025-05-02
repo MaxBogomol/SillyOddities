@@ -1,0 +1,52 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "advancement": {
+         "parent": "minecraft:recipes/root",
+         "criteria": {
+           "has_runewood_slabs": {
+             "conditions": {
+               "items": [
+                 {
+                   "tag": "malum:runewood_slabs"
+                 }
+               ]
+             },
+             "trigger": "minecraft:inventory_changed"
+           },
+           "has_nether_salt": {
+             "conditions": {
+               "items": [
+                 {
+                  "items": [
+                    "wizards_reborn:nether_salt"
+                  ]
+                 }
+               ]
+             },
+             "trigger": "minecraft:inventory_changed"
+           }
+         },
+         "requirements": [
+           [
+             "has_runewood_slabs",
+             "has_nether_salt"
+           ]
+         ],
+         "rewards": {
+           "recipes": [
+             "silly_oddities:integration/wizards_reborn/shaped/malum/runewood/runewood_salt_lantern"
+           ]
+         },
+         "sends_telemetry_event": false
+       }
+    }
+  ]
+}

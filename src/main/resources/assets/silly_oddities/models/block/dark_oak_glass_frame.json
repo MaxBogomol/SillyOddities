@@ -1,0 +1,9 @@
+{
+	"parent": "wizards_reborn:block/glass_frame_block",
+	"render_type": "minecraft:translucent",
+	"textures": {
+		"case": "silly_oddities:block/dark_oak_casing",
+		"glass": "wizards_reborn:block/alchemy_glass",
+		"particle": "minecraft:block/dark_oak_planks"
+	}
+}

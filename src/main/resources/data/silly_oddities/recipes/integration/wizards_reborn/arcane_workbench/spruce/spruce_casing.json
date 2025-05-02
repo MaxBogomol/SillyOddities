@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "wizards_reborn:arcane_workbench",
+         "pattern": [
+           "_G_",
+           "_#_",
+           "___",
+           "____"
+         ],
+         "key": {
+           "#": {
+             "item": "silly_oddities:spruce_frame"
+           },
+           "G": {
+             "tag": "silly_oddities:spruce_planks"
+           }
+         },
+         "output": {
+           "item": "silly_oddities:spruce_casing"
+         },
+         "wissen": 100
+      }
+    }
+  ]
+}

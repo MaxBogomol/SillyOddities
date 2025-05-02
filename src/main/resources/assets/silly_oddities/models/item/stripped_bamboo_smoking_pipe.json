@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:item/stick_smoking_pipe",
+	"textures": {
+		"pipe": "silly_oddities:item/stripped_bamboo_smoking_pipe",
+		"particle": "silly_oddities:item/stripped_bamboo_smoking_pipe"
+	}
+}

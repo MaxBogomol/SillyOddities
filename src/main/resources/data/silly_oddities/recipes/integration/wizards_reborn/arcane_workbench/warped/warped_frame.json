@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "wizards_reborn:arcane_workbench",
+         "pattern": [
+           "#G#",
+           "G_G",
+           "#G#",
+           "____"
+         ],
+         "key": {
+           "#": {
+             "tag": "silly_oddities:warped_slabs"
+           },
+           "G": {
+             "tag": "wizards_reborn:arcane_gold_nugget"
+           }
+         },
+         "output": {
+           "item": "silly_oddities:warped_frame"
+         },
+         "wissen": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "misc",
+         "group": "salt_campfire",
+         "pattern": [
+           " S ",
+           "SXS",
+           "###"
+         ],
+         "key": {
+           "#": {
+             "item": "minecraft:spruce_log"
+           },
+           "X": {
+             "item": "wizards_reborn:nether_salt"
+           },
+           "S": {
+             "tag": "forge:rods/wooden"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:spruce_salt_campfire"
+         }
+      }
+    }
+  ]
+}

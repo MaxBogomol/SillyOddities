@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/casing_block",
+	"textures": {
+		"case": "silly_oddities:block/dark_oak_steam_casing",
+		"particle": "minecraft:block/dark_oak_planks"
+	}
+}

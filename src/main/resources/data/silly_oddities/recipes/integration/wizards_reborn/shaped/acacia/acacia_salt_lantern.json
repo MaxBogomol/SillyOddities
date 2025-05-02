@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "misc",
+         "group": "salt_lantern",
+         "pattern": [
+           " C ",
+           "GXG",
+           "###"
+         ],
+         "key": {
+           "#": {
+             "tag": "silly_oddities:acacia_slabs"
+           },
+           "X": {
+             "item": "silly_oddities:acacia_salt_torch"
+           },
+           "G": {
+             "tag": "wizards_reborn:arcane_gold_nugget"
+           },
+           "C": {
+             "item": "minecraft:chain"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:acacia_salt_lantern"
+         }
+      }
+    }
+  ]
+}

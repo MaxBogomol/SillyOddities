@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "silly_oddities:oak_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_casing",
+      "required": false
+    }
+  ]
+}

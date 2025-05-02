@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "group": "cross_baulk",
+         "pattern": [
+           "#",
+           "#",
+           "#"
+         ],
+         "key": {
+           "#": {
+             "item": "minecraft:dark_oak_log"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:dark_oak_baulk",
+           "count": 6
+         }
+      }
+    }
+  ]
+}

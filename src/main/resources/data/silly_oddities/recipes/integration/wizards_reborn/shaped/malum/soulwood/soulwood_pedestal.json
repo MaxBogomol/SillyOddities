@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "group": "arcane_pedestal",
+         "pattern": [
+           "#W#",
+           " W ",
+           "#W#"
+         ],
+         "key": {
+           "#": {
+             "tag": "malum:soulwood_slabs"
+           },
+           "W": {
+             "tag": "malum:soulwood_planks"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:soulwood_pedestal"
+         }
+      }
+    }
+  ]
+}

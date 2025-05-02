@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "advancement": {
+         "parent": "minecraft:recipes/root",
+         "criteria": {
+           "has_acacia_planks": {
+             "conditions": {
+               "items": [
+                 {
+                   "tag": "silly_oddities:acacia_planks"
+                 }
+               ]
+             },
+             "trigger": "minecraft:inventory_changed"
+           }
+         },
+         "requirements": [
+           [
+             "has_acacia_planks"
+           ]
+         ],
+         "rewards": {
+           "recipes": [
+             "silly_oddities:integration/wizards_reborn/shaped/acacia/acacia_pedestal"
+           ]
+         },
+         "sends_telemetry_event": false
+       }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/frame_block",
+	"textures": {
+		"case": "silly_oddities:block/warped_casing",
+		"particle": "minecraft:block/warped_planks"
+	}
+}

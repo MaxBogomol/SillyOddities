@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "group": "cross_baulk",
+         "pattern": [
+           "#",
+           "#",
+           "#"
+         ],
+         "key": {
+           "#": {
+             "item": "minecraft:birch_planks"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:birch_planks_baulk",
+           "count": 6
+         }
+      }
+    }
+  ]
+}

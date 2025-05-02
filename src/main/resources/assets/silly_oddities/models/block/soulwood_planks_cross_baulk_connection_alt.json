@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_connection_alt",
+	"textures": {
+		"particle": "malum:block/soulwood/soulwood_planks",
+		"pipe": "silly_oddities:block/soulwood_planks_baulk"
+	}
+}

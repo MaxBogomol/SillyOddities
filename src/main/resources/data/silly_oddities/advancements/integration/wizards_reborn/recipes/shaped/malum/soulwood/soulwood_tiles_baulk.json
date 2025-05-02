@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "advancement": {
+         "parent": "minecraft:recipes/root",
+         "criteria": {
+           "has_soulwood_tiles": {
+             "conditions": {
+               "items": [
+                 {
+                  "items": [
+                    "malum:soulwood_tiles"
+                  ]
+                 }
+               ]
+             },
+             "trigger": "minecraft:inventory_changed"
+           }
+         },
+         "requirements": [
+           [
+             "has_soulwood_tiles"
+           ]
+         ],
+         "rewards": {
+           "recipes": [
+             "silly_oddities:integration/wizards_reborn/shaped/malum/soulwood/soulwood_tiles_baulk"
+           ]
+         },
+         "sends_telemetry_event": false
+       }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "wizards_reborn:block/pedestal",
+	"textures": {
+		"0": "silly_oddities:block/birch_pedestal_mid",
+		"1": "silly_oddities:block/birch_pedestal_bottom",
+		"2": "silly_oddities:block/birch_pedestal_top",
+		"particle": "minecraft:block/birch_planks"
+	}
+}

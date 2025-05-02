@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "silly_oddities:oak_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_glass_frame",
+      "required": false
+    }
+  ]
+}

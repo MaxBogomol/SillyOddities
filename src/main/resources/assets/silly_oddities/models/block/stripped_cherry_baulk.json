@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/baulk",
+	"textures": {
+		"block": "silly_oddities:block/stripped_cherry_baulk",
+		"particle": "minecraft:block/stripped_cherry_log"
+	}
+}

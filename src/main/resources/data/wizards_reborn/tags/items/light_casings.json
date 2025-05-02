@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "silly_oddities:oak_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_light_casing",
+      "required": false
+    }
+  ]
+}

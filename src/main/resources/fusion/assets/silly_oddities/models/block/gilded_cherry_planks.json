@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "render_type": "minecraft:opaque",
+  "textures": {
+    "all": "silly_oddities:block/gilded_cherry_planks"
+  },
+  "connections": [
+    {
+      "type": "fluffy_fur:match_block_tag",
+      "block": "wizards_reborn:gilded"
+    }
+  ],
+  "loader": "fusion:model",
+  "type": "fusion:connecting"
+}

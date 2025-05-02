@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "wizards_reborn:arcane_workbench",
+         "pattern": [
+           "#__",
+           "###",
+           "___",
+           "C_A_"
+         ],
+         "key": {
+           "#": {
+             "item": "silly_oddities:stripped_bamboo_block"
+           },
+           "A": {
+             "item": "wizards_reborn:alchemy_calx"
+           },
+           "C": {
+             "item": "wizards_reborn:natural_calx"
+           }
+         },
+         "output": {
+           "item": "silly_oddities:stripped_bamboo_smoking_pipe"
+         },
+         "wissen": 1000
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "silly_oddities:gilded_oak_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_spruce_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_birch_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_jungle_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_acacia_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_dark_oak_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_mangrove_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_cherry_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_bamboo_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_bamboo_mosaic",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_crimson_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_warped_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_runewood_boards",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_runewood_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_runewood_tiles",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_soulwood_boards",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_soulwood_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_soulwood_tiles",
+      "required": false
+    }
+  ]
+}

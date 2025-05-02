@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "advancement": {
+         "parent": "minecraft:recipes/root",
+         "criteria": {
+           "has_runewood_log": {
+             "conditions": {
+               "items": [
+                 {
+                  "items": [
+                    "malum:runewood_log"
+                  ]
+                 }
+               ]
+             },
+             "trigger": "minecraft:inventory_changed"
+           }
+         },
+         "requirements": [
+           [
+             "has_runewood_log"
+           ]
+         ],
+         "rewards": {
+           "recipes": [
+             "silly_oddities:integration/wizards_reborn/shaped/malum/runewood/runewood_baulk"
+           ]
+         },
+         "sends_telemetry_event": false
+       }
+    }
+  ]
+}

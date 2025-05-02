@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "group": "cross_baulk",
+         "pattern": [
+           "#",
+           "#",
+           "#"
+         ],
+         "key": {
+           "#": {
+             "item": "minecraft:stripped_warped_stem"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:stripped_warped_baulk",
+           "count": 6
+         }
+      }
+    }
+  ]
+}

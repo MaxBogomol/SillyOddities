@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "advancement": {
+         "parent": "minecraft:recipes/root",
+         "criteria": {
+           "has_stripped_bamboo_block": {
+             "conditions": {
+               "items": [
+                 {
+                  "items": [
+                    "minecraft:stripped_bamboo_block"
+                  ]
+                 }
+               ]
+             },
+             "trigger": "minecraft:inventory_changed"
+           }
+         },
+         "requirements": [
+           [
+             "has_stripped_bamboo_block"
+           ]
+         ],
+         "rewards": {
+           "recipes": [
+             "silly_oddities:integration/wizards_reborn/shaped/bamboo/stripped_bamboo_baulk"
+           ]
+         },
+         "sends_telemetry_event": false
+       }
+    }
+  ]
+}

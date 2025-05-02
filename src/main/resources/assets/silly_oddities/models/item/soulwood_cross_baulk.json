@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_inventory",
+	"textures": {
+		"block": "silly_oddities:block/soulwood_baulk",
+		"particle": "malum:block/soulwood/soulwood_log"
+	}
+}

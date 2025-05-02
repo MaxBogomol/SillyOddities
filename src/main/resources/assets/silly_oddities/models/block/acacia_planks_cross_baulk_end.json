@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_end",
+	"textures": {
+		"particle": "minecraft:block/acacia_planks",
+		"pipe": "silly_oddities:block/acacia_planks_baulk"
+	}
+}

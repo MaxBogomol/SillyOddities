@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_end_alt",
+	"textures": {
+		"particle": "malum:block/soulwood/stripped_soulwood_log",
+		"pipe": "silly_oddities:block/stripped_soulwood_baulk"
+	}
+}

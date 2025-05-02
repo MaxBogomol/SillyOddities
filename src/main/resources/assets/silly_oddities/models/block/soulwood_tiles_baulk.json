@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/baulk",
+	"textures": {
+		"block": "silly_oddities:block/soulwood_tiles_baulk",
+		"particle": "malum:block/soulwood/soulwood_tiles"
+	}
+}

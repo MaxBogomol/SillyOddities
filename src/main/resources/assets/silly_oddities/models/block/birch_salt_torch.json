@@ -1,0 +1,8 @@
+{
+	"parent": "wizards_reborn:block/salt_torch",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"torch": "silly_oddities:block/birch_salt_torch",
+		"particle": "minecraft:block/birch_planks"
+	}
+}

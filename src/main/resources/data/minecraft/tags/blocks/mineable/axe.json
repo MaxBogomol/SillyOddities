@@ -1,0 +1,881 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "silly_oddities:oak_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_oak_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_oak_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:oak_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_spruce_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_spruce_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_spruce_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:spruce_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_birch_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_birch_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_birch_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:birch_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_jungle_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_jungle_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_jungle_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:jungle_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_acacia_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_acacia_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_acacia_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:acacia_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_dark_oak_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_dark_oak_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_dark_oak_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:dark_oak_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_mangrove_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_mangrove_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_mangrove_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:mangrove_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_bamboo_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_bamboo_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_mosaic_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_mosaic_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_bamboo_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_bamboo_mosaic",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:bamboo_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_crimson_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_crimson_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_crimson_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:crimson_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_warped_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_warped_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_warped_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:warped_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_runewood_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_runewood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_boards_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_boards_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_tiles_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_tiles_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_runewood_boards",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_runewood_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_runewood_tiles",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:runewood_salt_campfire",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_soulwood_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_soulwood_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_boards_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_boards_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_tiles_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_tiles_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_soulwood_boards",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_soulwood_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_soulwood_tiles",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:soulwood_salt_campfire",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/baulk",
+	"textures": {
+		"block": "silly_oddities:block/acacia_planks_baulk",
+		"particle": "minecraft:block/acacia_planks"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_connection",
+	"textures": {
+		"particle": "minecraft:block/stripped_acacia_log",
+		"pipe": "silly_oddities:block/stripped_acacia_baulk"
+	}
+}

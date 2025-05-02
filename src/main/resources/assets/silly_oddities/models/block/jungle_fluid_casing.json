@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/casing_block",
+	"textures": {
+		"case": "silly_oddities:block/jungle_fluid_casing",
+		"particle": "minecraft:block/jungle_planks"
+	}
+}

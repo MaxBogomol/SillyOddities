@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "silly_oddities:block/warped_salt_lantern"
+    },
+    "hanging=true": {
+      "model": "silly_oddities:block/warped_salt_hanging_lantern"
+    }
+  }
+}

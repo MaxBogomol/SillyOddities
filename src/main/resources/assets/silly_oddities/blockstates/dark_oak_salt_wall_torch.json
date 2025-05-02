@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east":  { "model": "silly_oddities:block/dark_oak_salt_wall_torch", "y": 90 },
+    "facing=west":  { "model": "silly_oddities:block/dark_oak_salt_wall_torch", "y": 270 },
+    "facing=south": { "model": "silly_oddities:block/dark_oak_salt_wall_torch", "y": 180 },
+    "facing=north": { "model": "silly_oddities:block/dark_oak_salt_wall_torch" }
+  }
+}

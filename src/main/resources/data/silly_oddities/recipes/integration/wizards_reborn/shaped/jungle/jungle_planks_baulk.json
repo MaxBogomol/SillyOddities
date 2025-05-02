@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "group": "cross_baulk",
+         "pattern": [
+           "#",
+           "#",
+           "#"
+         ],
+         "key": {
+           "#": {
+             "item": "minecraft:jungle_planks"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:jungle_planks_baulk",
+           "count": 6
+         }
+      }
+    }
+  ]
+}

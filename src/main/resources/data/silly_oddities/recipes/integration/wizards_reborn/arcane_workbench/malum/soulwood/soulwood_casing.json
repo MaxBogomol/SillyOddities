@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+        }
+      ],
+      "recipe": {
+         "type": "wizards_reborn:arcane_workbench",
+         "pattern": [
+           "_G_",
+           "_#_",
+           "___",
+           "____"
+         ],
+         "key": {
+           "#": {
+             "item": "silly_oddities:soulwood_frame"
+           },
+           "G": {
+             "tag": "malum:soulwood_planks"
+           }
+         },
+         "output": {
+           "item": "silly_oddities:soulwood_casing"
+         },
+         "wissen": 100
+      }
+    }
+  ]
+}

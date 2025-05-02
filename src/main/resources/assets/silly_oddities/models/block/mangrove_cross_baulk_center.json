@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_center",
+	"textures": {
+		"particle": "minecraft:block/mangrove_log",
+		"pipe": "silly_oddities:block/mangrove_baulk"
+	}
+}

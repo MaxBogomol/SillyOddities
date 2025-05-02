@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/baulk",
+	"textures": {
+		"block": "silly_oddities:block/bamboo_baulk",
+		"particle": "minecraft:block/bamboo_block"
+	}
+}

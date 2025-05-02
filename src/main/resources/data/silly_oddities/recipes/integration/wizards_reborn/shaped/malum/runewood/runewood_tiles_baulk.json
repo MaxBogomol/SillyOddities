@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "wizards_reborn"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+        }
+      ],
+      "recipe": {
+         "type": "minecraft:crafting_shaped",
+         "category": "building",
+         "group": "cross_baulk",
+         "pattern": [
+           "#",
+           "#",
+           "#"
+         ],
+         "key": {
+           "#": {
+             "item": "malum:runewood_tiles"
+           }
+         },
+         "result": {
+           "item": "silly_oddities:runewood_tiles_baulk",
+           "count": 6
+         }
+      }
+    }
+  ]
+}

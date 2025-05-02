@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "silly_oddities:block/crimson_baulk",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "silly_oddities:block/crimson_baulk"
+    },
+    "axis=z": {
+      "model": "silly_oddities:block/crimson_baulk",
+      "x": 90
+    }
+  }
+}

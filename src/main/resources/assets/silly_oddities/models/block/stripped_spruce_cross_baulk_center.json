@@ -1,0 +1,7 @@
+{
+	"parent": "wizards_reborn:block/cross_baulk_center",
+	"textures": {
+		"particle": "minecraft:block/stripped_spruce_log",
+		"pipe": "silly_oddities:block/stripped_spruce_baulk"
+	}
+}
