@@ -1,5 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "dye_bundle",
   "ingredients": [
     {
       "tag": "silly_oddities:bundles"
