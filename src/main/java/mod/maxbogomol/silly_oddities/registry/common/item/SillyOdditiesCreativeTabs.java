@@ -3,9 +3,13 @@ package mod.maxbogomol.silly_oddities.registry.common.item;
 import mod.maxbogomol.fluffy_fur.util.ColorUtil;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
+import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesPaintings;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.decoration.Painting;
+import net.minecraft.world.entity.decoration.PaintingVariant;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -111,6 +115,27 @@ public class SillyOdditiesCreativeTabs {
             event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_BULB);
             event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
             event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
+
+            event.accept(getPaintingItem(SillyOdditiesPaintings.MEDITATIVE));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.PRAIRE_RIDE));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.BAROQUE));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.HUMBLE));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.UNPACKED));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.BACKYARD));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.BOUQUET));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.CAVEBIRD));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.CHANGING));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.COTAN));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.ENDBOSS));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.FERN));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.FINDING));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.LOWMIST));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.ORB));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.OWLEMONS));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.PASSAGE));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.POND));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.SUNFLOWERS));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.TIDES));
 
             if (SillyOdditiesWizardsReborn.isLoaded()) {
                 //OAK
@@ -393,5 +418,12 @@ public class SillyOdditiesCreativeTabs {
                 }
             }
         }
+    }
+
+    public static ItemStack getPaintingItem(RegistryObject<PaintingVariant> paintingVariant) {
+        ItemStack itemStack = new ItemStack(Items.PAINTING);
+        CompoundTag compoundtag = itemStack.getOrCreateTagElement("EntityTag");
+        Painting.storeVariant(compoundtag, paintingVariant.getHolder().get());
+        return itemStack;
     }
 }
