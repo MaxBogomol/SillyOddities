@@ -1,7 +1,9 @@
 package mod.maxbogomol.silly_oddities.common.block.copper;
 
+import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
@@ -42,7 +44,10 @@ public class WeatheringCopperBulbBlock extends RedstoneLampBlock implements Weat
             boolean flag = state.getValue(POWERED);
             if (flag != level.hasNeighborSignal(pos)) {
                 state = state.cycle(POWERED);
-                if (!flag) state = state.cycle(LIT);
+                if (!flag) {
+                    state = state.cycle(LIT);
+                    level.playSound(null, pos, state.getValue(LIT) ? SillyOdditiesSounds.COPPER_BULB_TURN_ON.get() : SillyOdditiesSounds.COPPER_BULB_TURN_OFF.get(), SoundSource.BLOCKS, 1.0f, 1.0f);
+                }
                 level.setBlock(pos, state, 2);
             }
         }

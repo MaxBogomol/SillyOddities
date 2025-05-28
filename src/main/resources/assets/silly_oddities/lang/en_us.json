@@ -366,7 +366,11 @@
   "block.silly_oddities.soulwood_salt_lantern": "Soulwood Salt Lantern",
   "block.silly_oddities.soulwood_salt_campfire": "Soulwood Salt Campfire",
   "item.silly_oddities.soulwood_smoking_pipe": "Soulwood Smoking Pipe",
+
+  "_comment_2": "Sounds",
+  "sounds.wizards_reborn.copper_bulb_turn_off": "Copper Bulb turns off",
+  "sounds.wizards_reborn.copper_bulb_turn_on": "Copper Bulb turns on",
   
-  "_comment_2": "Fluffy Fur Menu",
+  "_comment_3": "Fluffy Fur Menu",
   "mod_description.silly_oddities": ""
 }

@@ -367,6 +367,10 @@
   "block.silly_oddities.soulwood_salt_campfire": "Солевой костёр из дерева душ",
   "item.silly_oddities.soulwood_smoking_pipe": "Курительная трубка из дерева душ",
 
-  "_comment_2": "Меню Пушистого Меха",
+  "_comment_2": "Звуки",
+  "sounds.wizards_reborn.copper_bulb_turn_off": "Выключение медной лампы",
+  "sounds.wizards_reborn.copper_bulb_turn_on": "Включение медной лампы",
+
+  "_comment_3": "Меню Пушистого Меха",
   "mod_description.silly_oddities": ""
 }
