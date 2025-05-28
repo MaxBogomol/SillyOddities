@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:cut_copper"
+  },
+  "result": "silly_oddities:chiseled_copper"
+}
