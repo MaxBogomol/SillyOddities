@@ -1,4 +1,4 @@
-package mod.maxbogomol.silly_oddities.registry.common;
+package mod.maxbogomol.silly_oddities.registry.common.painting;
 
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import net.minecraft.world.entity.decoration.PaintingVariant;

@@ -3,7 +3,7 @@ package mod.maxbogomol.silly_oddities.registry.common.item;
 import mod.maxbogomol.fluffy_fur.util.ColorUtil;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
-import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesPaintings;
+import mod.maxbogomol.silly_oddities.registry.common.painting.SillyOdditiesPaintings;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;

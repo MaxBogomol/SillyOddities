@@ -4,7 +4,7 @@ import mod.maxbogomol.fluffy_fur.common.proxy.ClientProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ISidedProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ServerProxy;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
-import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesPaintings;
+import mod.maxbogomol.silly_oddities.registry.common.painting.SillyOdditiesPaintings;
 import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesCreativeTabs;
