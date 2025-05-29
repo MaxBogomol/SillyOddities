@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "minecraft:earth",
+    "minecraft:wind",
+    "minecraft:water",
+    "minecraft:fire",
     "silly_oddities:meditative",
     "silly_oddities:prairie_ride",
     "silly_oddities:baroque",

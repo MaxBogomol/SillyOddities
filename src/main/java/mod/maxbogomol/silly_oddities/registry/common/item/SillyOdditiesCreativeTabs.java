@@ -4,12 +4,15 @@ import mod.maxbogomol.fluffy_fur.util.ColorUtil;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.painting.SillyOdditiesPaintings;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.decoration.Painting;
 import net.minecraft.world.entity.decoration.PaintingVariant;
+import net.minecraft.world.entity.decoration.PaintingVariants;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -116,6 +119,10 @@ public class SillyOdditiesCreativeTabs {
             event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
             event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
 
+            event.accept(getPaintingItem(PaintingVariants.EARTH));
+            event.accept(getPaintingItem(PaintingVariants.WIND));
+            event.accept(getPaintingItem(PaintingVariants.WATER));
+            event.accept(getPaintingItem(PaintingVariants.FIRE));
             event.accept(getPaintingItem(SillyOdditiesPaintings.MEDITATIVE));
             event.accept(getPaintingItem(SillyOdditiesPaintings.PRAIRE_RIDE));
             event.accept(getPaintingItem(SillyOdditiesPaintings.BAROQUE));
@@ -424,6 +431,13 @@ public class SillyOdditiesCreativeTabs {
         ItemStack itemStack = new ItemStack(Items.PAINTING);
         CompoundTag compoundtag = itemStack.getOrCreateTagElement("EntityTag");
         Painting.storeVariant(compoundtag, paintingVariant.getHolder().get());
+        return itemStack;
+    }
+
+    public static ItemStack getPaintingItem(ResourceKey<PaintingVariant> paintingVariant) {
+        ItemStack itemStack = new ItemStack(Items.PAINTING);
+        CompoundTag compoundtag = itemStack.getOrCreateTagElement("EntityTag");
+        Painting.storeVariant(compoundtag, BuiltInRegistries.PAINTING_VARIANT.getHolderOrThrow(paintingVariant));
         return itemStack;
     }
 }
