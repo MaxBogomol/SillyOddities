@@ -30,6 +30,7 @@ public class SillyOdditiesPaintings {
     public static final RegistryObject<PaintingVariant> POND = PAINTING_VARIANTS.register("pond", () -> new PaintingVariant(48, 64));
     public static final RegistryObject<PaintingVariant> SUNFLOWERS = PAINTING_VARIANTS.register("sunflowers", () -> new PaintingVariant(48, 48));
     public static final RegistryObject<PaintingVariant> TIDES = PAINTING_VARIANTS.register("tides", () -> new PaintingVariant(48, 48));
+    public static final RegistryObject<PaintingVariant> GOOD_BOY = PAINTING_VARIANTS.register("good_boy", () -> new PaintingVariant(48, 48));
 
     public static void register(IEventBus eventBus) {
         PAINTING_VARIANTS.register(eventBus);

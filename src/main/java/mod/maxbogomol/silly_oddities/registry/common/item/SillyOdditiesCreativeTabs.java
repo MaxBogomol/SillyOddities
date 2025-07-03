@@ -143,6 +143,7 @@ public class SillyOdditiesCreativeTabs {
             event.accept(getPaintingItem(SillyOdditiesPaintings.POND));
             event.accept(getPaintingItem(SillyOdditiesPaintings.SUNFLOWERS));
             event.accept(getPaintingItem(SillyOdditiesPaintings.TIDES));
+            event.accept(getPaintingItem(SillyOdditiesPaintings.GOOD_BOY));
 
             if (SillyOdditiesWizardsReborn.isLoaded()) {
                 //OAK
