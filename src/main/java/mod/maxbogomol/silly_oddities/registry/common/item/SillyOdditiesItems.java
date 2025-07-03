@@ -19,24 +19,6 @@ import net.minecraftforge.registries.RegistryObject;
 public class SillyOdditiesItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SillyOddities.MOD_ID);
 
-    public static final RegistryObject<Item> WHITE_BUNDLE = ITEMS.register("white_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> LIGHT_GRAY_BUNDLE = ITEMS.register("light_gray_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> GRAY_BUNDLE = ITEMS.register("gray_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> BLACK_BUNDLE = ITEMS.register("black_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> BROWN_BUNDLE = ITEMS.register("brown_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> RED_BUNDLE = ITEMS.register("red_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> ORANGE_BUNDLE = ITEMS.register("orange_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> YELLOW_BUNDLE = ITEMS.register("yellow_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> LIME_BUNDLE = ITEMS.register("lime_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> GREEN_BUNDLE = ITEMS.register("green_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> CYAN_BUNDLE = ITEMS.register("cyan_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> LIGHT_BLUE_BUNDLE = ITEMS.register("light_blue_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> BLUE_BUNDLE = ITEMS.register("blue_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> PURPLE_BUNDLE = ITEMS.register("purple_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> MAGENTA_BUNDLE = ITEMS.register("magenta_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> PINK_BUNDLE = ITEMS.register("pink_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> RAINBOW_BUNDLE = ITEMS.register("rainbow_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
-
     public static final RegistryObject<Item> TUFF_STAIRS = ITEMS.register("tuff_stairs", () -> new BlockItem(SillyOdditiesBlocks.TUFF_STAIRS.get(), new Item.Properties()));
     public static final RegistryObject<Item> TUFF_SLAB = ITEMS.register("tuff_slab", () -> new BlockItem(SillyOdditiesBlocks.TUFF_SLAB.get(), new Item.Properties()));
     public static final RegistryObject<Item> TUFF_WALL = ITEMS.register("tuff_wall", () -> new BlockItem(SillyOdditiesBlocks.TUFF_WALL.get(), new Item.Properties()));
@@ -95,6 +77,24 @@ public class SillyOdditiesItems {
     public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_BULB = ITEMS.register("waxed_exposed_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_EXPOSED_COPPER_BULB.get(), new Item.Properties()));
     public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_BULB = ITEMS.register("waxed_weathered_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_WEATHERED_COPPER_BULB.get(), new Item.Properties()));
     public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_BULB = ITEMS.register("waxed_oxidized_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_OXIDIZED_COPPER_BULB.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> WHITE_BUNDLE = ITEMS.register("white_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> LIGHT_GRAY_BUNDLE = ITEMS.register("light_gray_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> GRAY_BUNDLE = ITEMS.register("gray_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BLACK_BUNDLE = ITEMS.register("black_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BROWN_BUNDLE = ITEMS.register("brown_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> RED_BUNDLE = ITEMS.register("red_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> ORANGE_BUNDLE = ITEMS.register("orange_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> YELLOW_BUNDLE = ITEMS.register("yellow_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> LIME_BUNDLE = ITEMS.register("lime_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> GREEN_BUNDLE = ITEMS.register("green_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> CYAN_BUNDLE = ITEMS.register("cyan_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> LIGHT_BLUE_BUNDLE = ITEMS.register("light_blue_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BLUE_BUNDLE = ITEMS.register("blue_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PURPLE_BUNDLE = ITEMS.register("purple_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> MAGENTA_BUNDLE = ITEMS.register("magenta_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> PINK_BUNDLE = ITEMS.register("pink_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> RAINBOW_BUNDLE = ITEMS.register("rainbow_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

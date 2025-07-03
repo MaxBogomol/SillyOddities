@@ -40,25 +40,6 @@ public class SillyOdditiesCreativeTabs {
 
     public static void addCreativeTabContent(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == SillyOdditiesCreativeTabs.SILLY_ODDITIES.getKey()) {
-            event.accept(Items.BUNDLE);
-            event.accept(SillyOdditiesItems.WHITE_BUNDLE);
-            event.accept(SillyOdditiesItems.LIGHT_GRAY_BUNDLE);
-            event.accept(SillyOdditiesItems.GRAY_BUNDLE);
-            event.accept(SillyOdditiesItems.BLACK_BUNDLE);
-            event.accept(SillyOdditiesItems.BROWN_BUNDLE);
-            event.accept(SillyOdditiesItems.RED_BUNDLE);
-            event.accept(SillyOdditiesItems.ORANGE_BUNDLE);
-            event.accept(SillyOdditiesItems.YELLOW_BUNDLE);
-            event.accept(SillyOdditiesItems.LIME_BUNDLE);
-            event.accept(SillyOdditiesItems.GREEN_BUNDLE);
-            event.accept(SillyOdditiesItems.CYAN_BUNDLE);
-            event.accept(SillyOdditiesItems.LIGHT_BLUE_BUNDLE);
-            event.accept(SillyOdditiesItems.BLUE_BUNDLE);
-            event.accept(SillyOdditiesItems.PURPLE_BUNDLE);
-            event.accept(SillyOdditiesItems.MAGENTA_BUNDLE);
-            event.accept(SillyOdditiesItems.PINK_BUNDLE);
-            event.accept(SillyOdditiesItems.RAINBOW_BUNDLE);
-
             event.accept(Items.TUFF);
             event.accept(SillyOdditiesItems.TUFF_STAIRS);
             event.accept(SillyOdditiesItems.TUFF_SLAB);
@@ -118,6 +99,25 @@ public class SillyOdditiesCreativeTabs {
             event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_BULB);
             event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
             event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
+
+            event.accept(Items.BUNDLE);
+            event.accept(SillyOdditiesItems.WHITE_BUNDLE);
+            event.accept(SillyOdditiesItems.LIGHT_GRAY_BUNDLE);
+            event.accept(SillyOdditiesItems.GRAY_BUNDLE);
+            event.accept(SillyOdditiesItems.BLACK_BUNDLE);
+            event.accept(SillyOdditiesItems.BROWN_BUNDLE);
+            event.accept(SillyOdditiesItems.RED_BUNDLE);
+            event.accept(SillyOdditiesItems.ORANGE_BUNDLE);
+            event.accept(SillyOdditiesItems.YELLOW_BUNDLE);
+            event.accept(SillyOdditiesItems.LIME_BUNDLE);
+            event.accept(SillyOdditiesItems.GREEN_BUNDLE);
+            event.accept(SillyOdditiesItems.CYAN_BUNDLE);
+            event.accept(SillyOdditiesItems.LIGHT_BLUE_BUNDLE);
+            event.accept(SillyOdditiesItems.BLUE_BUNDLE);
+            event.accept(SillyOdditiesItems.PURPLE_BUNDLE);
+            event.accept(SillyOdditiesItems.MAGENTA_BUNDLE);
+            event.accept(SillyOdditiesItems.PINK_BUNDLE);
+            event.accept(SillyOdditiesItems.RAINBOW_BUNDLE);
 
             event.accept(getPaintingItem(PaintingVariants.EARTH));
             event.accept(getPaintingItem(PaintingVariants.WIND));
