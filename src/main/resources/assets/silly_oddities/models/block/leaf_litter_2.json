@@ -1,0 +1,7 @@
+{
+  "parent": "silly_oddities:block/template_leaf_litter_2",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "texture": "silly_oddities:block/leaf_litter"
+  }
+}

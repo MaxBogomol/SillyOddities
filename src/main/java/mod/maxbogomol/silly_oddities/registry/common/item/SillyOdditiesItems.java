@@ -1,6 +1,7 @@
 package mod.maxbogomol.silly_oddities.registry.common.item;
 
 import mod.maxbogomol.silly_oddities.SillyOddities;
+import mod.maxbogomol.silly_oddities.common.item.BushItem;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
@@ -8,6 +9,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.BundleItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -78,6 +80,14 @@ public class SillyOdditiesItems {
     public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_BULB = ITEMS.register("waxed_weathered_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_WEATHERED_COPPER_BULB.get(), new Item.Properties()));
     public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_BULB = ITEMS.register("waxed_oxidized_copper_bulb", () -> new BlockItem(SillyOdditiesBlocks.WAXED_OXIDIZED_COPPER_BULB.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> LEAF_LITTER = ITEMS.register("leaf_litter", () -> new BlockItem(SillyOdditiesBlocks.LEAF_LITTER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> WILDFLOWERS = ITEMS.register("wildflowers", () -> new BlockItem(SillyOdditiesBlocks.WILDFLOWERS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> BUSH = ITEMS.register("bush", () -> new BushItem(SillyOdditiesBlocks.BUSH.get(), new Item.Properties()));
+    public static final RegistryObject<Item> FIREFLY_BUSH = ITEMS.register("firefly_bush", () -> new BlockItem(SillyOdditiesBlocks.FIREFLY_BUSH.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CACTUS_FLOWER = ITEMS.register("cactus_flower", () -> new BlockItem(SillyOdditiesBlocks.CACTUS_FLOWER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SHORT_DRY_GRASS = ITEMS.register("short_dry_grass", () -> new BlockItem(SillyOdditiesBlocks.SHORT_DRY_GRASS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TALL_DRY_GRASS = ITEMS.register("tall_dry_grass", () -> new BlockItem(SillyOdditiesBlocks.TALL_DRY_GRASS.get(), new Item.Properties()));
+
     public static final RegistryObject<Item> WHITE_BUNDLE = ITEMS.register("white_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LIGHT_GRAY_BUNDLE = ITEMS.register("light_gray_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> GRAY_BUNDLE = ITEMS.register("gray_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
@@ -121,6 +131,11 @@ public class SillyOdditiesItems {
             bundleItemProperties(MAGENTA_BUNDLE.get());
             bundleItemProperties(PINK_BUNDLE.get());
             bundleItemProperties(RAINBOW_BUNDLE.get());
+        }
+
+        @SubscribeEvent
+        public static void registerItemColorHandlers(RegisterColorHandlersEvent.Item event) {
+            event.register(new BushItem.ColorHandler(), BUSH.get());
         }
     }
 

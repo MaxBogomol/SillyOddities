@@ -2,13 +2,19 @@ package mod.maxbogomol.silly_oddities.registry.common.block;
 
 import mod.maxbogomol.fluffy_fur.registry.common.block.FluffyFurBlocks;
 import mod.maxbogomol.silly_oddities.SillyOddities;
+import mod.maxbogomol.silly_oddities.common.block.SillyOdditiesBlockColor;
 import mod.maxbogomol.silly_oddities.common.block.copper.*;
+import mod.maxbogomol.silly_oddities.common.block.plant.LeafLitterBlock;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -75,8 +81,28 @@ public class SillyOdditiesBlocks {
     public static final RegistryObject<Block> WAXED_WEATHERED_COPPER_BULB = BLOCKS.register("waxed_weathered_copper_bulb", () -> new CopperBulbBlock(BlockBehaviour.Properties.copy(Blocks.WEATHERED_COPPER).lightLevel((state) -> state.getValue(BlockStateProperties.LIT) ? 8 : 0).sound(SillyOdditiesSounds.COPPER_BULB)));
     public static final RegistryObject<Block> WAXED_OXIDIZED_COPPER_BULB = BLOCKS.register("waxed_oxidized_copper_bulb", () -> new CopperBulbBlock(BlockBehaviour.Properties.copy(Blocks.OXIDIZED_COPPER).lightLevel((state) -> state.getValue(BlockStateProperties.LIT) ? 4 : 0).sound(SillyOdditiesSounds.COPPER_BULB)));
 
+    public static final RegistryObject<Block> LEAF_LITTER = BLOCKS.register("leaf_litter", () -> new LeafLitterBlock(BlockBehaviour.Properties.copy(Blocks.PINK_PETALS)));
+    public static final RegistryObject<Block> WILDFLOWERS = BLOCKS.register("wildflowers", () -> new PinkPetalsBlock(BlockBehaviour.Properties.copy(Blocks.PINK_PETALS)));
+    public static final RegistryObject<Block> POTTED_WILDFLOWERS = BLOCKS.register("potted_wildflowers", () -> new FlowerPotBlock(WILDFLOWERS.get(), BlockBehaviour.Properties.copy(Blocks.FLOWER_POT).instabreak().noOcclusion()));
+    public static final RegistryObject<Block> BUSH = BLOCKS.register("bush", () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.PINK_PETALS).offsetType(BlockBehaviour.OffsetType.XZ)));
+    public static final RegistryObject<Block> FIREFLY_BUSH = BLOCKS.register("firefly_bush", () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.PINK_PETALS).offsetType(BlockBehaviour.OffsetType.XZ)));
+    public static final RegistryObject<Block> CACTUS_FLOWER = BLOCKS.register("cactus_flower", () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.PINK_PETALS).offsetType(BlockBehaviour.OffsetType.XZ)));
+    public static final RegistryObject<Block> POTTED_CACTUS_FLOWER = BLOCKS.register("potted_cactus_flower", () -> new FlowerPotBlock(CACTUS_FLOWER.get(), BlockBehaviour.Properties.copy(Blocks.FLOWER_POT).instabreak().noOcclusion()));
+    public static final RegistryObject<Block> SHORT_DRY_GRASS = BLOCKS.register("short_dry_grass", () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.PINK_PETALS).offsetType(BlockBehaviour.OffsetType.XZ)));
+    public static final RegistryObject<Block> POTTED_SHORT_DRY_GRASS = BLOCKS.register("potted_short_dry_grass", () -> new FlowerPotBlock(SHORT_DRY_GRASS.get(), BlockBehaviour.Properties.copy(Blocks.FLOWER_POT).instabreak().noOcclusion()));
+    public static final RegistryObject<Block> TALL_DRY_GRASS = BLOCKS.register("tall_dry_grass", () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.PINK_PETALS).offsetType(BlockBehaviour.OffsetType.XZ)));
+    public static final RegistryObject<Block> POTTED_TALL_DRY_GRASS = BLOCKS.register("potted_tall_dry_grass", () -> new FlowerPotBlock(TALL_DRY_GRASS.get(), BlockBehaviour.Properties.copy(Blocks.FLOWER_POT).instabreak().noOcclusion()));
+
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
+    }
+
+    @Mod.EventBusSubscriber(modid = SillyOddities.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientRegistryEvents {
+        @SubscribeEvent
+        public static void registerColorMappingBlocks(RegisterColorHandlersEvent.Block event) {
+            event.register((state, world, pos, tintIndex) -> SillyOdditiesBlockColor.getPlantsInstance().getColor(state, world, pos, tintIndex), SillyOdditiesBlockColor.PLANTS);
+        }
     }
 
     public static void setupBlocks() {

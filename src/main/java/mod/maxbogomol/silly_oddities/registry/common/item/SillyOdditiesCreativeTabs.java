@@ -100,6 +100,14 @@ public class SillyOdditiesCreativeTabs {
             event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
             event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
 
+            event.accept(SillyOdditiesItems.LEAF_LITTER);
+            event.accept(SillyOdditiesItems.WILDFLOWERS);
+            event.accept(SillyOdditiesItems.BUSH);
+            event.accept(SillyOdditiesItems.FIREFLY_BUSH);
+            event.accept(SillyOdditiesItems.CACTUS_FLOWER);
+            event.accept(SillyOdditiesItems.SHORT_DRY_GRASS);
+            event.accept(SillyOdditiesItems.TALL_DRY_GRASS);
+
             event.accept(Items.BUNDLE);
             event.accept(SillyOdditiesItems.WHITE_BUNDLE);
             event.accept(SillyOdditiesItems.LIGHT_GRAY_BUNDLE);

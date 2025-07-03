@@ -61,6 +61,18 @@
   "block.silly_oddities.waxed_weathered_copper_bulb": "Вощёная состаренная медная лампа",
   "block.silly_oddities.waxed_oxidized_copper_bulb": "Вощёная окисенная медная лампа",
 
+  "block.silly_oddities.leaf_litter": "Сухие листья",
+  "block.silly_oddities.wildflowers": "Полевые цветы",
+  "block.silly_oddities.potted_wildflowers": "Полевые цветы в горшке",
+  "block.silly_oddities.bush": "Куст",
+  "block.silly_oddities.firefly_bush": "Куст со светлячками",
+  "block.silly_oddities.cactus_flower": "Цветок кактуса",
+  "block.silly_oddities.potted_cactus_flower": "Цветок кактуса в горшке",
+  "block.silly_oddities.short_dry_grass": "Низкая сухая трава",
+  "block.silly_oddities.potted_short_dry_grass": "Низкая сухая трава в горшке",
+  "block.silly_oddities.tall_dry_grass": "Высокая сухая трава",
+  "block.silly_oddities.potted_tall_dry_grass": "Высокая сухая трава в горшке",
+
   "item.silly_oddities.white_bundle": "Белый мешок",
   "item.silly_oddities.light_gray_bundle": "Светло-серый мешок",
   "item.silly_oddities.gray_bundle": "Серый мешок",
