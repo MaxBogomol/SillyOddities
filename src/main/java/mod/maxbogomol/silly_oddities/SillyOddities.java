@@ -3,12 +3,13 @@ package mod.maxbogomol.silly_oddities;
 import mod.maxbogomol.fluffy_fur.common.proxy.ClientProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ISidedProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ServerProxy;
+import mod.maxbogomol.silly_oddities.common.event.SillyOdditiesEvents;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
-import mod.maxbogomol.silly_oddities.registry.common.painting.SillyOdditiesPaintings;
 import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesCreativeTabs;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesItems;
+import mod.maxbogomol.silly_oddities.registry.common.painting.SillyOdditiesPaintings;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
@@ -52,6 +53,7 @@ public class SillyOddities {
         SillyOdditiesCreativeTabs.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new SillyOdditiesEvents());
     }
 
     private void setup(final FMLCommonSetupEvent event) {

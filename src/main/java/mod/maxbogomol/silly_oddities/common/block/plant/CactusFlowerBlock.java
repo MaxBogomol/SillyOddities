@@ -6,6 +6,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.CactusBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.ForgeHooks;
@@ -19,6 +20,11 @@ public class CactusFlowerBlock extends GrassBushBlock {
     @Override
     public boolean mayPlaceOn(BlockState state, BlockGetter level, BlockPos pos) {
         return state.is(SillyOdditiesBlockTags.CACTUS_FLOWER_MAY_PLACE_ON);
+    }
+
+    @Override
+    public boolean isValidBonemealTarget(LevelReader level, BlockPos pos, BlockState blockState, boolean isClient) {
+        return false;
     }
 
     public static void growRandomTick(CactusBlock self, BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
