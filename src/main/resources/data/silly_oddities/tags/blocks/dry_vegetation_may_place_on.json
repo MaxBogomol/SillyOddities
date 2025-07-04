@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:dead_bush_may_place_on",
+    "minecraft:farmland"
+  ]
+}

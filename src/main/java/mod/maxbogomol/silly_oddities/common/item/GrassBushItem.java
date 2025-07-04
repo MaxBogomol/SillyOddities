@@ -8,9 +8,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class BushItem extends BlockItem {
+public class GrassBushItem extends BlockItem {
 
-    public BushItem(Block block, Properties properties) {
+    public GrassBushItem(Block block, Properties properties) {
         super(block, properties);
     }
 

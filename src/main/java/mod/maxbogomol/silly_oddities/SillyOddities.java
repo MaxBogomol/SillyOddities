@@ -58,6 +58,7 @@ public class SillyOddities {
         hi();
 
         SillyOdditiesBlocks.setupBlocks();
+        SillyOdditiesItems.setupItems();
     }
 
     public static void hi() {
