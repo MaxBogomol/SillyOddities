@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#silly_oddities:wildflowers_meadow_spawn",
+  "features": "silly_oddities:wildflowers_meadow",
+  "step": "vegetal_decoration"
+}

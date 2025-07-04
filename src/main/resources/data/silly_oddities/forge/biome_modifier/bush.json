@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#silly_oddities:bush_spawn",
+  "features": "silly_oddities:bush",
+  "step": "vegetal_decoration"
+}

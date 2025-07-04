@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#silly_oddities:firefly_bush_rare_spawn",
+  "features": "silly_oddities:firefly_bush_rare",
+  "step": "vegetal_decoration"
+}

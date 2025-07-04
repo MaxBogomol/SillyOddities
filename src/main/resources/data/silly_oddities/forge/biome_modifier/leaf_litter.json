@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#silly_oddities:leaf_litter_spawn",
+  "features": "silly_oddities:leaf_litter",
+  "step": "vegetal_decoration"
+}

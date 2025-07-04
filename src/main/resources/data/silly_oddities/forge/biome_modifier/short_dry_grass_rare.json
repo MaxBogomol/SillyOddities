@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#silly_oddities:dry_grass_rare_spawn",
+  "features": "silly_oddities:short_dry_grass_rare",
+  "step": "vegetal_decoration"
+}
