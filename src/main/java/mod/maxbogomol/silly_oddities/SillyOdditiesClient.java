@@ -35,11 +35,11 @@ public class SillyOdditiesClient {
 
     public static void setupMenu() {
         MOD_INSTANCE = new FluffyFurMod(SillyOddities.MOD_ID, SillyOddities.NAME, SillyOddities.VERSION).setDev("MaxBogomol").setItem(new ItemStack(Items.BUNDLE))
-                .setEdition(SillyOddities.VERSION_NUMBER).setNameColor(new Color(205, 237, 254)).setVersionColor(new Color(255, 243, 177))
+                .setEdition(SillyOddities.VERSION_NUMBER).setNameColor(new Color(246, 160, 211)).setVersionColor(new Color(222, 126, 105))
                 .setDescription(Component.translatable("mod_description.silly_oddities"))
                 .addGithubLink("https://github.com/MaxBogomol/SillyOddities")
                 .addCurseForgeLink("https://www.curseforge.com/minecraft/mc-mods/silly-oddities")
-                .addModrinthLink("https://modrinth.com/mod/silly-oddities")
+                .addModrinthLink("https://modrinth.com/mod/very-silly-oddities")
                 .addDiscordLink("https://discord.gg/cKf55qNugw");
 
         FluffyFurClient.registerMod(MOD_INSTANCE);
