@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "silly_oddities:leaf_litter",
+    "silly_oddities:wildflowers",
+    "silly_oddities:bush",
+    "silly_oddities:firefly_bush",
+    "silly_oddities:cactus_flower",
+    "silly_oddities:short_dry_grass",
+    "silly_oddities:tall_dry_grass"
+  ]
+}
