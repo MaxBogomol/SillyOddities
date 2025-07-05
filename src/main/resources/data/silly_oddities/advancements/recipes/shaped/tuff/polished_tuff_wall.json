@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silly_oddities:polished_tuff"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_tuff"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silly_oddities:shaped/tuff/polished_tuff_wall"
+    ]
+  },
+  "sends_telemetry_event": false
+}

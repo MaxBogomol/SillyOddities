@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_weathered_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:weathered_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_weathered_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silly_oddities:shaped/copper/waxed_weathered_copper_grate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

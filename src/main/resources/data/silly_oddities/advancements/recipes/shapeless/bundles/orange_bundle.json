@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bundles": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "silly_oddities:bundles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_bundles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silly_oddities:shapeless/bundles/orange_bundle"
+    ]
+  },
+  "sends_telemetry_event": false
+}

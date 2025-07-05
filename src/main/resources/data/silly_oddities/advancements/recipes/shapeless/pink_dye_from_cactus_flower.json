@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cactus_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silly_oddities:cactus_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cactus_flower"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silly_oddities:shapeless/pink_dye_from_cactus_flower"
+    ]
+  },
+  "sends_telemetry_event": false
+}
