@@ -4,6 +4,7 @@ import mod.maxbogomol.fluffy_fur.common.proxy.ClientProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ISidedProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ServerProxy;
 import mod.maxbogomol.silly_oddities.common.event.SillyOdditiesEvents;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
@@ -16,7 +17,9 @@ import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
@@ -41,6 +44,8 @@ public class SillyOddities {
         SillyOdditiesPaintings.register(eventBus);
 
         SillyOdditiesWizardsReborn.init(eventBus);
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, SillyOdditiesConfig.SPEC);
 
         DistExecutor.unsafeCallWhenOn(Dist.CLIENT, () -> () -> {
             SillyOdditiesClient.ClientOnly.clientInit();

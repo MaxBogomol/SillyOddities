@@ -2,6 +2,7 @@ package mod.maxbogomol.silly_oddities.registry.common;
 
 import mod.maxbogomol.fluffy_fur.common.pack.PackHandler;
 import mod.maxbogomol.silly_oddities.SillyOddities;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.repository.Pack;
@@ -18,13 +19,14 @@ public class SillyOdditiesDataPacks {
         @SubscribeEvent
         public static void addPackFinders(AddPackFindersEvent event) {
             if (event.getPackType() == PackType.SERVER_DATA) {
-                addPack(event, "tuff");
-                addPack(event, "copper");
-                addPack(event, "plants");
-                addPack(event, "bundles");
-                addPack(event, "paintings");
-                addPack(event, "lodestone");
-                addPack(event, "integration/wizards_reborn");
+                if (SillyOdditiesConfig.TUFF_DATAPACK.get()) addPack(event, "tuff");
+                if (SillyOdditiesConfig.COPPER_DATAPACK.get()) addPack(event, "copper");
+                if (SillyOdditiesConfig.PLANTS_DATAPACK.get()) addPack(event, "plants");
+                if (SillyOdditiesConfig.BUNDLES_DATAPACK.get()) addPack(event, "bundles");
+                if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) addPack(event, "paintings");
+                if (SillyOdditiesConfig.LODESTONE_DATAPACK.get()) addPack(event, "lodestone");
+
+                if (SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) addPack(event, "integration/wizards_reborn");
             }
         }
     }

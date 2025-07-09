@@ -2,6 +2,7 @@ package mod.maxbogomol.silly_oddities.registry.common.item;
 
 import mod.maxbogomol.fluffy_fur.util.ColorUtil;
 import mod.maxbogomol.silly_oddities.SillyOddities;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.painting.SillyOdditiesPaintings;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -40,120 +41,130 @@ public class SillyOdditiesCreativeTabs {
 
     public static void addCreativeTabContent(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == SillyOdditiesCreativeTabs.SILLY_ODDITIES.getKey()) {
-            event.accept(Items.TUFF);
-            event.accept(SillyOdditiesItems.TUFF_STAIRS);
-            event.accept(SillyOdditiesItems.TUFF_SLAB);
-            event.accept(SillyOdditiesItems.TUFF_WALL);
-            event.accept(SillyOdditiesItems.CHISELED_TUFF);
-            event.accept(SillyOdditiesItems.POLISHED_TUFF);
-            event.accept(SillyOdditiesItems.POLISHED_TUFF_STAIRS);
-            event.accept(SillyOdditiesItems.POLISHED_TUFF_SLAB);
-            event.accept(SillyOdditiesItems.POLISHED_TUFF_WALL);
-            event.accept(SillyOdditiesItems.TUFF_BRICKS);
-            event.accept(SillyOdditiesItems.TUFF_BRICKS_STAIRS);
-            event.accept(SillyOdditiesItems.TUFF_BRICKS_SLAB);
-            event.accept(SillyOdditiesItems.TUFF_BRICKS_WALL);
-            event.accept(SillyOdditiesItems.CHISELED_TUFF_BRICKS);
+            if (SillyOdditiesConfig.TUFF_DATAPACK.get()) {
+                event.accept(Items.TUFF);
+                event.accept(SillyOdditiesItems.TUFF_STAIRS);
+                event.accept(SillyOdditiesItems.TUFF_SLAB);
+                event.accept(SillyOdditiesItems.TUFF_WALL);
+                event.accept(SillyOdditiesItems.CHISELED_TUFF);
+                event.accept(SillyOdditiesItems.POLISHED_TUFF);
+                event.accept(SillyOdditiesItems.POLISHED_TUFF_STAIRS);
+                event.accept(SillyOdditiesItems.POLISHED_TUFF_SLAB);
+                event.accept(SillyOdditiesItems.POLISHED_TUFF_WALL);
+                event.accept(SillyOdditiesItems.TUFF_BRICKS);
+                event.accept(SillyOdditiesItems.TUFF_BRICKS_STAIRS);
+                event.accept(SillyOdditiesItems.TUFF_BRICKS_SLAB);
+                event.accept(SillyOdditiesItems.TUFF_BRICKS_WALL);
+                event.accept(SillyOdditiesItems.CHISELED_TUFF_BRICKS);
+            }
 
-            event.accept(SillyOdditiesItems.CHISELED_COPPER);
-            event.accept(SillyOdditiesItems.EXPOSED_CHISELED_COPPER);
-            event.accept(SillyOdditiesItems.WEATHERED_CHISELED_COPPER);
-            event.accept(SillyOdditiesItems.OXIDIZED_CHISELED_COPPER);
-            event.accept(SillyOdditiesItems.WAXED_CHISELED_COPPER);
-            event.accept(SillyOdditiesItems.WAXED_EXPOSED_CHISELED_COPPER);
-            event.accept(SillyOdditiesItems.WAXED_WEATHERED_CHISELED_COPPER);
-            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_CHISELED_COPPER);
+            if (SillyOdditiesConfig.COPPER_DATAPACK.get()) {
+                event.accept(SillyOdditiesItems.CHISELED_COPPER);
+                event.accept(SillyOdditiesItems.EXPOSED_CHISELED_COPPER);
+                event.accept(SillyOdditiesItems.WEATHERED_CHISELED_COPPER);
+                event.accept(SillyOdditiesItems.OXIDIZED_CHISELED_COPPER);
+                event.accept(SillyOdditiesItems.WAXED_CHISELED_COPPER);
+                event.accept(SillyOdditiesItems.WAXED_EXPOSED_CHISELED_COPPER);
+                event.accept(SillyOdditiesItems.WAXED_WEATHERED_CHISELED_COPPER);
+                event.accept(SillyOdditiesItems.WAXED_OXIDIZED_CHISELED_COPPER);
 
-            event.accept(SillyOdditiesItems.COPPER_GRATE);
-            event.accept(SillyOdditiesItems.EXPOSED_COPPER_GRATE);
-            event.accept(SillyOdditiesItems.WEATHERED_COPPER_GRATE);
-            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_GRATE);
-            event.accept(SillyOdditiesItems.WAXED_COPPER_GRATE);
-            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_GRATE);
-            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_GRATE);
-            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_GRATE);
+                event.accept(SillyOdditiesItems.COPPER_GRATE);
+                event.accept(SillyOdditiesItems.EXPOSED_COPPER_GRATE);
+                event.accept(SillyOdditiesItems.WEATHERED_COPPER_GRATE);
+                event.accept(SillyOdditiesItems.OXIDIZED_COPPER_GRATE);
+                event.accept(SillyOdditiesItems.WAXED_COPPER_GRATE);
+                event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_GRATE);
+                event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_GRATE);
+                event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_GRATE);
 
-            event.accept(SillyOdditiesItems.COPPER_DOOR);
-            event.accept(SillyOdditiesItems.EXPOSED_COPPER_DOOR);
-            event.accept(SillyOdditiesItems.WEATHERED_COPPER_DOOR);
-            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_DOOR);
-            event.accept(SillyOdditiesItems.WAXED_COPPER_DOOR);
-            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_DOOR);
-            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_DOOR);
-            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_DOOR);
+                event.accept(SillyOdditiesItems.COPPER_DOOR);
+                event.accept(SillyOdditiesItems.EXPOSED_COPPER_DOOR);
+                event.accept(SillyOdditiesItems.WEATHERED_COPPER_DOOR);
+                event.accept(SillyOdditiesItems.OXIDIZED_COPPER_DOOR);
+                event.accept(SillyOdditiesItems.WAXED_COPPER_DOOR);
+                event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_DOOR);
+                event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_DOOR);
+                event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_DOOR);
 
-            event.accept(SillyOdditiesItems.COPPER_TRAPDOOR);
-            event.accept(SillyOdditiesItems.EXPOSED_COPPER_TRAPDOOR);
-            event.accept(SillyOdditiesItems.WEATHERED_COPPER_TRAPDOOR);
-            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_TRAPDOOR);
-            event.accept(SillyOdditiesItems.WAXED_COPPER_TRAPDOOR);
-            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_TRAPDOOR);
-            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_TRAPDOOR);
-            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.EXPOSED_COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.WEATHERED_COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.OXIDIZED_COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.WAXED_COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_TRAPDOOR);
+                event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_TRAPDOOR);
 
-            event.accept(SillyOdditiesItems.COPPER_BULB);
-            event.accept(SillyOdditiesItems.EXPOSED_COPPER_BULB);
-            event.accept(SillyOdditiesItems.WEATHERED_COPPER_BULB);
-            event.accept(SillyOdditiesItems.OXIDIZED_COPPER_BULB);
-            event.accept(SillyOdditiesItems.WAXED_COPPER_BULB);
-            event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_BULB);
-            event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
-            event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
+                event.accept(SillyOdditiesItems.COPPER_BULB);
+                event.accept(SillyOdditiesItems.EXPOSED_COPPER_BULB);
+                event.accept(SillyOdditiesItems.WEATHERED_COPPER_BULB);
+                event.accept(SillyOdditiesItems.OXIDIZED_COPPER_BULB);
+                event.accept(SillyOdditiesItems.WAXED_COPPER_BULB);
+                event.accept(SillyOdditiesItems.WAXED_EXPOSED_COPPER_BULB);
+                event.accept(SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
+                event.accept(SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
+            }
 
-            event.accept(SillyOdditiesItems.LEAF_LITTER);
-            event.accept(SillyOdditiesItems.WILDFLOWERS);
-            event.accept(SillyOdditiesItems.BUSH);
-            event.accept(SillyOdditiesItems.FIREFLY_BUSH);
-            event.accept(SillyOdditiesItems.CACTUS_FLOWER);
-            event.accept(SillyOdditiesItems.SHORT_DRY_GRASS);
-            event.accept(SillyOdditiesItems.TALL_DRY_GRASS);
+            if (SillyOdditiesConfig.PLANTS_DATAPACK.get()) {
+                event.accept(SillyOdditiesItems.LEAF_LITTER);
+                event.accept(SillyOdditiesItems.WILDFLOWERS);
+                event.accept(SillyOdditiesItems.BUSH);
+                event.accept(SillyOdditiesItems.FIREFLY_BUSH);
+                event.accept(SillyOdditiesItems.CACTUS_FLOWER);
+                event.accept(SillyOdditiesItems.SHORT_DRY_GRASS);
+                event.accept(SillyOdditiesItems.TALL_DRY_GRASS);
+            }
 
-            event.accept(Items.BUNDLE);
-            event.accept(SillyOdditiesItems.WHITE_BUNDLE);
-            event.accept(SillyOdditiesItems.LIGHT_GRAY_BUNDLE);
-            event.accept(SillyOdditiesItems.GRAY_BUNDLE);
-            event.accept(SillyOdditiesItems.BLACK_BUNDLE);
-            event.accept(SillyOdditiesItems.BROWN_BUNDLE);
-            event.accept(SillyOdditiesItems.RED_BUNDLE);
-            event.accept(SillyOdditiesItems.ORANGE_BUNDLE);
-            event.accept(SillyOdditiesItems.YELLOW_BUNDLE);
-            event.accept(SillyOdditiesItems.LIME_BUNDLE);
-            event.accept(SillyOdditiesItems.GREEN_BUNDLE);
-            event.accept(SillyOdditiesItems.CYAN_BUNDLE);
-            event.accept(SillyOdditiesItems.LIGHT_BLUE_BUNDLE);
-            event.accept(SillyOdditiesItems.BLUE_BUNDLE);
-            event.accept(SillyOdditiesItems.PURPLE_BUNDLE);
-            event.accept(SillyOdditiesItems.MAGENTA_BUNDLE);
-            event.accept(SillyOdditiesItems.PINK_BUNDLE);
-            event.accept(SillyOdditiesItems.RAINBOW_BUNDLE);
+            if (SillyOdditiesConfig.BUNDLES_DATAPACK.get()) {
+                event.accept(Items.BUNDLE);
+                event.accept(SillyOdditiesItems.WHITE_BUNDLE);
+                event.accept(SillyOdditiesItems.LIGHT_GRAY_BUNDLE);
+                event.accept(SillyOdditiesItems.GRAY_BUNDLE);
+                event.accept(SillyOdditiesItems.BLACK_BUNDLE);
+                event.accept(SillyOdditiesItems.BROWN_BUNDLE);
+                event.accept(SillyOdditiesItems.RED_BUNDLE);
+                event.accept(SillyOdditiesItems.ORANGE_BUNDLE);
+                event.accept(SillyOdditiesItems.YELLOW_BUNDLE);
+                event.accept(SillyOdditiesItems.LIME_BUNDLE);
+                event.accept(SillyOdditiesItems.GREEN_BUNDLE);
+                event.accept(SillyOdditiesItems.CYAN_BUNDLE);
+                event.accept(SillyOdditiesItems.LIGHT_BLUE_BUNDLE);
+                event.accept(SillyOdditiesItems.BLUE_BUNDLE);
+                event.accept(SillyOdditiesItems.PURPLE_BUNDLE);
+                event.accept(SillyOdditiesItems.MAGENTA_BUNDLE);
+                event.accept(SillyOdditiesItems.PINK_BUNDLE);
+                event.accept(SillyOdditiesItems.RAINBOW_BUNDLE);
+            }
 
-            event.accept(getPaintingItem(PaintingVariants.EARTH));
-            event.accept(getPaintingItem(PaintingVariants.WIND));
-            event.accept(getPaintingItem(PaintingVariants.WATER));
-            event.accept(getPaintingItem(PaintingVariants.FIRE));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.MEDITATIVE));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.PRAIRE_RIDE));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.BAROQUE));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.HUMBLE));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.UNPACKED));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.BACKYARD));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.BOUQUET));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.CAVEBIRD));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.CHANGING));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.COTAN));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.ENDBOSS));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.FERN));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.FINDING));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.LOWMIST));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.ORB));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.OWLEMONS));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.PASSAGE));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.POND));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.SUNFLOWERS));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.TIDES));
-            event.accept(getPaintingItem(SillyOdditiesPaintings.GOOD_BOY));
+            if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) {
+                event.accept(getPaintingItem(PaintingVariants.EARTH));
+                event.accept(getPaintingItem(PaintingVariants.WIND));
+                event.accept(getPaintingItem(PaintingVariants.WATER));
+                event.accept(getPaintingItem(PaintingVariants.FIRE));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.MEDITATIVE));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.PRAIRE_RIDE));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.BAROQUE));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.HUMBLE));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.UNPACKED));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.BACKYARD));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.BOUQUET));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.CAVEBIRD));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.CHANGING));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.COTAN));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.ENDBOSS));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.FERN));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.FINDING));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.LOWMIST));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.ORB));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.OWLEMONS));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.PASSAGE));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.POND));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.SUNFLOWERS));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.TIDES));
+                event.accept(getPaintingItem(SillyOdditiesPaintings.GOOD_BOY));
+            }
 
-            if (SillyOdditiesWizardsReborn.isLoaded()) {
+            if (SillyOdditiesWizardsReborn.isLoaded() && SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) {
                 //OAK
                 event.accept(SillyOdditiesWizardsReborn.ItemsLoadedOnly.OAK_BAULK);
                 event.accept(SillyOdditiesWizardsReborn.ItemsLoadedOnly.OAK_CROSS_BAULK);
