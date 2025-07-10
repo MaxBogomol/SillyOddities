@@ -4,6 +4,7 @@ import mod.maxbogomol.fluffy_fur.common.proxy.ClientProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ISidedProxy;
 import mod.maxbogomol.fluffy_fur.common.proxy.ServerProxy;
 import mod.maxbogomol.silly_oddities.common.event.SillyOdditiesEvents;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
 import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
@@ -45,6 +46,7 @@ public class SillyOddities {
 
         SillyOdditiesWizardsReborn.init(eventBus);
 
+        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, SillyOdditiesClientConfig.SPEC);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, SillyOdditiesConfig.SPEC);
 
         DistExecutor.unsafeCallWhenOn(Dist.CLIENT, () -> () -> {

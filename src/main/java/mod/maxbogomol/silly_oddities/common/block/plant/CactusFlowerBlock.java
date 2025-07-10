@@ -4,6 +4,7 @@ import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlockTags;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.BlockGetter;
@@ -29,9 +30,16 @@ public class CactusFlowerBlock extends GrassBushBlock {
     }
 
     public static void growRandomTick(CactusBlock self, BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
-        if (SillyOdditiesConfig.PLANTS_DATAPACK.get()) {
+        if (SillyOdditiesConfig.PLANTS_DATAPACK.get() && SillyOdditiesConfig.CACTUS_FLOWER_GROW.get()) {
             BlockPos blockPos = pos.above();
-            if (level.isEmptyBlock(blockPos)) {
+            boolean emptyNearby = true;
+            if (SillyOdditiesConfig.CACTUS_FLOWER_GROW_CHECK.get()) {
+                for (int i = 0; i < 4; i++) {
+                    if (!level.isEmptyBlock(pos.above().relative(Direction.from3DDataValue(2 + i))))
+                        emptyNearby = false;
+                }
+            }
+            if (level.isEmptyBlock(blockPos) && emptyNearby) {
                 int i;
                 for (i = 1; level.getBlockState(pos.below(i)).is(self); ++i) {
                 }

@@ -6,7 +6,8 @@ import org.apache.commons.lang3.tuple.Pair;
 public class SillyOdditiesConfig {
     public static ForgeConfigSpec.ConfigValue<Boolean>
             TUFF_DATAPACK, COPPER_DATAPACK, PLANTS_DATAPACK, BUNDLES_DATAPACK, PAINTINGS_DATAPACK, LODESTONE_DATAPACK,
-            WIZRDS_REBORN_INTEGRATION_DATAPACK;
+            WIZRDS_REBORN_INTEGRATION_DATAPACK,
+            CACTUS_FLOWER_GROW, CACTUS_FLOWER_GROW_CHECK;
 
     public SillyOdditiesConfig(ForgeConfigSpec.Builder builder) {
         builder.comment("Data Packs").push("datapacks");
@@ -20,6 +21,11 @@ public class SillyOdditiesConfig {
         builder.comment("Integrations").push("integrations");
         WIZRDS_REBORN_INTEGRATION_DATAPACK = builder.comment("Enables Wizard's Reborn integration Data Pack").comment("Requires a world reload").define("wizardsRebornIntegrationDatapack", true);
         builder.pop();
+        builder.pop();
+
+        builder.comment("World").push("world");
+        CACTUS_FLOWER_GROW = builder.comment("Enables cactus flower grow").define("cactusFlowerGrow", true);
+        CACTUS_FLOWER_GROW_CHECK = builder.comment("Enables additional check when cactus flower is grow").comment("Vanilla farm works").define("cactusFlowerGrowCheck", false);
         builder.pop();
     }
 

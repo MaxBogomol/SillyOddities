@@ -2,6 +2,7 @@ package mod.maxbogomol.silly_oddities;
 
 import mod.maxbogomol.fluffy_fur.FluffyFurClient;
 import mod.maxbogomol.fluffy_fur.client.gui.screen.FluffyFurMod;
+import mod.maxbogomol.silly_oddities.client.event.SillyOdditiesClientEvents;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesCreativeTabs;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
@@ -21,6 +22,7 @@ public class SillyOdditiesClient {
         public static void clientInit() {
             IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
             IEventBus forgeBus = MinecraftForge.EVENT_BUS;
+            forgeBus.register(new SillyOdditiesClientEvents());
 
             eventBus.addListener(SillyOdditiesCreativeTabs::addCreativeTabContent);
         }
