@@ -10,15 +10,15 @@ public class SillyOdditiesConfig {
 
     public SillyOdditiesConfig(ForgeConfigSpec.Builder builder) {
         builder.comment("Data Packs").push("datapacks");
-        TUFF_DATAPACK = builder.comment("Enables tuff Data Pack").define("tuffDatapack", true);
-        COPPER_DATAPACK = builder.comment("Enables copper Data Pack").define("copperDatapack", true);
-        PLANTS_DATAPACK = builder.comment("Enables plants Data Pack").define("plantsDatapack", true);
-        BUNDLES_DATAPACK = builder.comment("Enables bundles Data Pack").define("bundlesDatapack", true);
-        PAINTINGS_DATAPACK = builder.comment("Enables paintings Data Pack").define("paintingsDatapack", true);
-        LODESTONE_DATAPACK = builder.comment("Enables lodestone Data Pack").define("lodestoneDatapack", true);
+        TUFF_DATAPACK = builder.comment("Enables tuff Data Pack").comment("Requires a world reload").define("tuffDatapack", true);
+        COPPER_DATAPACK = builder.comment("Enables copper Data Pack").comment("Requires a world reload").define("copperDatapack", true);
+        PLANTS_DATAPACK = builder.comment("Enables plants Data Pack").comment("Requires a world reload").define("plantsDatapack", true);
+        BUNDLES_DATAPACK = builder.comment("Enables bundles Data Pack").comment("Requires a world reload").define("bundlesDatapack", true);
+        PAINTINGS_DATAPACK = builder.comment("Enables paintings Data Pack").comment("Requires a world reload").define("paintingsDatapack", true);
+        LODESTONE_DATAPACK = builder.comment("Enables lodestone Data Pack").comment("Requires a world reload").define("lodestoneDatapack", true);
 
         builder.comment("Integrations").push("integrations");
-        WIZRDS_REBORN_INTEGRATION_DATAPACK = builder.comment("Enables Wizard's Reborn integration Data Pack").define("wizardsRebornIntegrationDatapack", true);
+        WIZRDS_REBORN_INTEGRATION_DATAPACK = builder.comment("Enables Wizard's Reborn integration Data Pack").comment("Requires a world reload").define("wizardsRebornIntegrationDatapack", true);
         builder.pop();
         builder.pop();
     }

@@ -63,6 +63,7 @@ public class SillyOddities {
 
     private void setup(final FMLCommonSetupEvent event) {
         hi();
+        SillyOdditiesCreativeTabs.init();
 
         SillyOdditiesBlocks.setupBlocks();
         SillyOdditiesItems.setupItems();

@@ -1,5 +1,12 @@
 {
   "creative_tab.silly_oddities": "Silly Oddities",
+  "creative_tab.silly_oddities.sub": "SO",
+  "creative_tab.silly_oddities.sub.tuff": "Туфъ",
+  "creative_tab.silly_oddities.sub.copper": "Мѣдь",
+  "creative_tab.silly_oddities.sub.plants": "Растенія",
+  "creative_tab.silly_oddities.sub.bundles": "Мѣшки",
+  "creative_tab.silly_oddities.sub.paintings": "Картины",
+  "creative_tab.silly_oddities.sub.wizards_reborn": "Wizard's Reborn",
 
   "_comment_1": "Предметы и блоки",
   "block.silly_oddities.tuff_stairs": "Туфовые ступеньки",
