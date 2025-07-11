@@ -109,6 +109,8 @@ public class SillyOdditiesCreativeTabs {
 
     public static void addCreativeTabContent(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == SillyOdditiesCreativeTabs.SILLY_ODDITIES.getKey()) {
+            boolean added = false;
+
             if (SillyOdditiesConfig.TUFF_DATAPACK.get()) {
                 addInSub(event, TUFF, () -> Items.TUFF);
                 addInSub(event, TUFF, SillyOdditiesItems.TUFF_STAIRS);
@@ -124,6 +126,7 @@ public class SillyOdditiesCreativeTabs {
                 addInSub(event, TUFF, SillyOdditiesItems.TUFF_BRICKS_SLAB);
                 addInSub(event, TUFF, SillyOdditiesItems.TUFF_BRICKS_WALL);
                 addInSub(event, TUFF, SillyOdditiesItems.CHISELED_TUFF_BRICKS);
+                added = true;
             }
 
             if (SillyOdditiesConfig.COPPER_DATAPACK.get()) {
@@ -171,6 +174,7 @@ public class SillyOdditiesCreativeTabs {
                 addInSub(event, COPPER, SillyOdditiesItems.WAXED_EXPOSED_COPPER_BULB);
                 addInSub(event, COPPER, SillyOdditiesItems.WAXED_WEATHERED_COPPER_BULB);
                 addInSub(event, COPPER, SillyOdditiesItems.WAXED_OXIDIZED_COPPER_BULB);
+                added = true;
             }
 
             if (SillyOdditiesConfig.PLANTS_DATAPACK.get()) {
@@ -181,6 +185,7 @@ public class SillyOdditiesCreativeTabs {
                 addInSub(event, PLANTS, SillyOdditiesItems.CACTUS_FLOWER);
                 addInSub(event, PLANTS, SillyOdditiesItems.SHORT_DRY_GRASS);
                 addInSub(event, PLANTS, SillyOdditiesItems.TALL_DRY_GRASS);
+                added = true;
             }
 
             if (SillyOdditiesConfig.BUNDLES_DATAPACK.get()) {
@@ -202,6 +207,7 @@ public class SillyOdditiesCreativeTabs {
                 addInSub(event, BUNDLES, SillyOdditiesItems.MAGENTA_BUNDLE);
                 addInSub(event, BUNDLES, SillyOdditiesItems.PINK_BUNDLE);
                 addInSub(event, BUNDLES, SillyOdditiesItems.RAINBOW_BUNDLE);
+                added = true;
             }
 
             if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) {
@@ -230,6 +236,7 @@ public class SillyOdditiesCreativeTabs {
                 addInSub(event, PAINTINGS, getPaintingItem(SillyOdditiesPaintings.SUNFLOWERS));
                 addInSub(event, PAINTINGS, getPaintingItem(SillyOdditiesPaintings.TIDES));
                 addInSub(event, PAINTINGS, getPaintingItem(SillyOdditiesPaintings.GOOD_BOY));
+                added = true;
             }
 
             if (SillyOdditiesWizardsReborn.isLoaded() && SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) {
@@ -511,6 +518,11 @@ public class SillyOdditiesCreativeTabs {
                     addInSub(event, WIZARDS_REBORN, SillyOdditiesWizardsReborn.MalumLoadedOnly.ItemsLoadedOnly.SOULWOOD_SALT_CAMPFIRE);
                     addInSub(event, WIZARDS_REBORN, SillyOdditiesWizardsReborn.MalumLoadedOnly.ItemsLoadedOnly.SOULWOOD_SMOKING_PIPE);
                 }
+                added = true;
+            }
+
+            if (!added) {
+                event.accept(SillyOdditiesItems.NOTHING);
             }
         }
     }
