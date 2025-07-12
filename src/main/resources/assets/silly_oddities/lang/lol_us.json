@@ -435,7 +435,10 @@
   "_comment_3": "Sounds",
   "sounds.wizards_reborn.copper_bulb_turn_off": "Copper Bulb turns off",
   "sounds.wizards_reborn.copper_bulb_turn_on": "Copper Bulb turns on",
+
+  "_comment_4": "Items lore",
+  "lore.silly_oddities.nothing": "And what is all this for?",
   
-  "_comment_4": "Fluffy Fur Menu",
+  "_comment_5": "Fluffy Fur Menu",
   "mod_description.silly_oddities": "Silly Oddities - a mod that adds goofy compat with other silly mods & partial backport from vanilla."
 }

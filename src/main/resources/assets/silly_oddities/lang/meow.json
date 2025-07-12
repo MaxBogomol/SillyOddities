@@ -386,6 +386,8 @@
   "block.silly_oddities.soulwood_salt_campfire": "Meow",
   "item.silly_oddities.soulwood_smoking_pipe": "Meow",
 
+  "item.silly_oddities.nothing": "Meow",
+
   "_comment_2": "Meow",
   "painting.silly_oddities.meditative.author": "Meow",
   "painting.silly_oddities.meditative.title": "Meow",
@@ -431,9 +433,12 @@
   "painting.silly_oddities.good_boy.title": "Meow",
 
   "_comment_3": "Meow",
+  "lore.silly_oddities.nothing": "Meow",
+
+  "_comment_4": "Meow",
   "sounds.wizards_reborn.copper_bulb_turn_off": "Meow",
   "sounds.wizards_reborn.copper_bulb_turn_on": "Meow",
 
-  "_comment_4": "Meow",
+  "_comment_5": "Meow",
   "mod_description.silly_oddities": "Meow"
 }

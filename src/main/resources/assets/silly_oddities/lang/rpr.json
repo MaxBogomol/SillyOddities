@@ -431,11 +431,14 @@
   "painting.silly_oddities.tides.title": "Приливъ",
   "painting.silly_oddities.good_boy.author": "Сара Бовингъ",
   "painting.silly_oddities.good_boy.title": "Хорошій Мальчикъ",
+
+  "_comment_3": "Лоръ предметовъ",
+  "lore.silly_oddities.nothing": "И для чего это всё?",
   
-  "_comment_3": "Звуки",
+  "_comment_4": "Звуки",
   "sounds.wizards_reborn.copper_bulb_turn_off": "Выключеніе мѣдной лампы",
   "sounds.wizards_reborn.copper_bulb_turn_on": "Включеніе мѣдной лампы",
   
-  "_comment_4": "Меню Пушистаго Мѣха",
+  "_comment_5": "Меню Пушистаго Мѣха",
   "mod_description.silly_oddities": "Silly Oddities — модъ, добавляющій глупенькую совмѣстимость съ другими глупенькими модами и частичный бэкпортъ изъ ванильной игры."
 } 

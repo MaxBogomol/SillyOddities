@@ -2,8 +2,13 @@ package mod.maxbogomol.silly_oddities.common.item;
 
 import mod.maxbogomol.fluffy_fur.client.event.ClientTickHandler;
 import mod.maxbogomol.silly_oddities.SillyOdditiesClient;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.TickEvent;
@@ -31,5 +36,33 @@ public class NothingItem extends SillyOdditiesRenderItem {
                 }
             }
         }
+    }
+
+    @Override
+    @OnlyIn(Dist.CLIENT)
+    public void appendHoverText(ItemStack stack, Level level, List<Component> list, TooltipFlag flags) {
+        int enabled = 0;
+        if (SillyOdditiesConfig.TUFF_DATAPACK.get()) enabled++;
+        if (SillyOdditiesConfig.COPPER_DATAPACK.get()) enabled++;
+        if (SillyOdditiesConfig.PLANTS_DATAPACK.get()) enabled++;
+        if (SillyOdditiesConfig.BUNDLES_DATAPACK.get()) enabled++;
+        if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) enabled++;
+        if (SillyOdditiesConfig.LODESTONE_DATAPACK.get()) enabled++;
+
+        if (SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) enabled++;
+
+        if (enabled > 0) {
+            list.add(getDataPacksComponent(enabled));
+        } else {
+            list.add(Component.translatable("lore.silly_oddities.nothing").withStyle(ChatFormatting.DARK_GRAY));
+        }
+    }
+
+    public int getDataPacks() {
+        return 7;
+    }
+
+    public Component getDataPacksComponent(int enabled) {
+        return Component.literal(enabled + "/" + getDataPacks());
     }
 }

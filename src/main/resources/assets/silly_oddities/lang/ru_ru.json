@@ -432,10 +432,13 @@
   "painting.silly_oddities.good_boy.author": "Сара Бовинг",
   "painting.silly_oddities.good_boy.title": "Хороший Мальчик",
 
-  "_comment_3": "Звуки",
+  "_comment_3": "Лор предметов",
+  "lore.silly_oddities.nothing": "И для чего это всё?",
+
+  "_comment_4": "Звуки",
   "sounds.wizards_reborn.copper_bulb_turn_off": "Выключение медной лампы",
   "sounds.wizards_reborn.copper_bulb_turn_on": "Включение медной лампы",
 
-  "_comment_4": "Меню Пушистого Меха",
+  "_comment_5": "Меню Пушистого Меха",
   "mod_description.silly_oddities": "Silly Oddities — мод, добавляющий глупенькую совместимость с другими глупенькими модами и частичный бэкпорт из ванильной игры."
 }

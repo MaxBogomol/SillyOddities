@@ -386,6 +386,8 @@
   "block.silly_oddities.soulwood_salt_campfire": "Soulwood Salt Campfire",
   "item.silly_oddities.soulwood_smoking_pipe": "Soulwood Smoking Pipe",
 
+  "item.silly_oddities.nothing": "The Oddity",
+
   "_comment_2": "Paintings",
   "painting.silly_oddities.meditative.author": "Sarah Boeving",
   "painting.silly_oddities.meditative.title": "Meditative",
@@ -430,10 +432,13 @@
   "painting.silly_oddities.good_boy.author": "Sarah Boeving",
   "painting.silly_oddities.good_boy.title": "Good Boy",
 
-  "_comment_3": "Sounds",
+  "_comment_3": "Items lore",
+  "lore.silly_oddities.nothing": "And what is all this for?",
+
+  "_comment_4": "Sounds",
   "sounds.wizards_reborn.copper_bulb_turn_off": "Copper Bulb turns off",
   "sounds.wizards_reborn.copper_bulb_turn_on": "Copper Bulb turns on",
 
-  "_comment_4": "Fluffy Fur Menu",
+  "_comment_5": "Fluffy Fur Menu",
   "mod_description.silly_oddities": "Silly Oddities - a mod that adds goofy compat with other silly mods & partial backport from vanilla."
 }
