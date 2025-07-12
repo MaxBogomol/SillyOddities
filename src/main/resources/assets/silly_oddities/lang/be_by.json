@@ -386,7 +386,7 @@
   "block.silly_oddities.soulwood_salt_campfire": "Пераўскітавае вогнішча з духавай драўніны",
   "item.silly_oddities.soulwood_smoking_pipe": "Курыльная трубка з духавай драўніны",
 
-  "item.silly_oddities.nothing": "The Oddity",
+  "item.silly_oddities.nothing": "Дзіўная штуковіна",
 
   "_comment_2": "Paintings",
   "painting.silly_oddities.meditative.author": "Сара Бовінг",
@@ -433,7 +433,7 @@
   "painting.silly_oddities.good_boy.title": "Той, хто з'еў мой паштэт",
 
   "_comment_3": "Items lore",
-  "lore.silly_oddities.nothing": "And what is all this for?",
+  "lore.silly_oddities.nothing": "І навошта гэта ўсё?",
 
   "_comment_4": "Sounds",
   "sounds.wizards_reborn.copper_bulb_turn_off": "Медная лямпа ўключана",
