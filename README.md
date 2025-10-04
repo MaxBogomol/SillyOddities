@@ -1,3 +1,8 @@
+[![CurseForge](https://img.shields.io/curseforge/dt/1300184?style=for-the-badge&color=6aa84f&logo=curseforge&label=SILLY%20ODDITIES)](https://www.curseforge.com/minecraft/mc-mods/silly-oddities)
+[![Modrinth](https://img.shields.io/modrinth/dt/very-silly-oddities?style=for-the-badge&color=6aa84f&logo=modrinth&label=SILLY%20ODDITIES)](https://modrinth.com/mod/very-silly-oddities)
+[![](https://img.shields.io/badge/%20-LICENSE%20GPL--2.0-blue?style=for-the-badge&color=blue&logo=github&logoColor=000000&labelColor=FFFFFF)](https://github.com/MaxBogomol/SillyOddities/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/1155188824360624148?style=for-the-badge&color=6aa84f&logo=discord&label=DISCORD)](https://discord.gg/cKf55qNugw)
+
 # About:
 
 "Silly Oddities" - a mod that adds goofy compat with other silly mods & partial backport from vanilla.
@@ -24,3 +29,4 @@ Compatibility:
 #
 
 You can visit our **[Discord Server](https://discord.gg/cKf55qNugw)** to suggest your ideas or receive news about development.
+
