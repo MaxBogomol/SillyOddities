@@ -5,6 +5,7 @@ import mod.maxbogomol.fluffy_fur.client.model.item.CustomModel;
 import mod.maxbogomol.fluffy_fur.registry.client.FluffyFurModels;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.client.model.item.NothingItemModel;
+import mod.maxbogomol.silly_oddities.client.model.item.entity.SillyBatModel;
 import mod.maxbogomol.silly_oddities.client.render.item.SillyOdditiesItemRenderer;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesItems;
@@ -14,6 +15,7 @@ import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.ModelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -22,6 +24,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import java.util.Map;
 
 public class SillyOdditiesModels {
+
+    public static ModelLayerLocation SILLY_BAT_LAYER = addLayer("silly");
 
     public static SillyOdditiesItemRenderer itemRenderer;
 
@@ -56,6 +60,11 @@ public class SillyOdditiesModels {
             if (SillyOdditiesWizardsReborn.isLoaded()) {
                 SillyOdditiesWizardsReborn.ClientLoadedOnly.completeModelBake(event);
             }
+        }
+
+        @SubscribeEvent
+        public static void registerLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
+            event.registerLayerDefinition(SILLY_BAT_LAYER, SillyBatModel::createBodyLayer);
         }
     }
 

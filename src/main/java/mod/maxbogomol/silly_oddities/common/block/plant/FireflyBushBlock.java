@@ -8,8 +8,6 @@ import mod.maxbogomol.fluffy_fur.client.particle.data.SpinParticleData;
 import mod.maxbogomol.fluffy_fur.common.easing.Easing;
 import mod.maxbogomol.fluffy_fur.registry.client.FluffyFurParticles;
 import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.Level;
@@ -31,9 +29,9 @@ public class FireflyBushBlock extends GrassBushBlock {
 
     @OnlyIn(Dist.CLIENT)
     public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
-        ClientLevel clientLevel = Minecraft.getInstance().level;
         if (SillyOdditiesClientConfig.FIREFLY_BUSH_EFFECT.get()) {
-            if (clientLevel.getBrightness(LightLayer.SKY, pos) <= 13 || clientLevel.getStarBrightness(0) > 0.1f) {
+            int light = level.getBrightness(LightLayer.SKY, pos) - level.getSkyDarken();
+            if (light <= 13) {
                 if (random.nextFloat() < 0.7) {
                     final Consumer<GenericParticle> randomTarget = p -> {
                         if (p.getAge() % 5 == 0 && random.nextFloat() < 0.4f) {

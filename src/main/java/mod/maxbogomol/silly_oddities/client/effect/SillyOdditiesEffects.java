@@ -9,8 +9,6 @@ import mod.maxbogomol.fluffy_fur.common.easing.Easing;
 import mod.maxbogomol.fluffy_fur.registry.client.FluffyFurParticles;
 import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
 import mod.maxbogomol.silly_oddities.registry.common.levelgen.SillyOdditiesBiomeTags;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LightLayer;
@@ -29,8 +27,8 @@ public class SillyOdditiesEffects {
         Level level = player.level();
         if (SillyOdditiesClientConfig.FIREFLIES_AMBIENT_EFFECT.get()) {
             if (level.getBiome(player.blockPosition()).is(SillyOdditiesBiomeTags.FIREFLIES_AMBIENT)) {
-                ClientLevel clientLevel = Minecraft.getInstance().level;
-                if (clientLevel.getBrightness(LightLayer.SKY, player.blockPosition()) >= 10 && clientLevel.getStarBrightness(0) > 0.1f) {
+                int light = level.getBrightness(LightLayer.SKY, player.blockPosition()) - level.getSkyDarken();
+                if (light >= 10) {
                     if (random.nextFloat() < 0.1) {
                         final Consumer<GenericParticle> randomTarget = p -> {
                             if (p.getAge() % 5 == 0 && random.nextFloat() < 0.4f) {

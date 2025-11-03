@@ -26,6 +26,7 @@ import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.common.bl
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.common.block.salt.torch.SillyOdditiesSaltTorchBlockEntity;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.common.block.salt.torch.SillyOdditiesSaltWallTorchBlock;
 import mod.maxbogomol.silly_oddities.registry.client.SillyOdditiesModels;
+import mod.maxbogomol.silly_oddities.registry.client.SillyOdditiesResourcePacks;
 import mod.maxbogomol.wizards_reborn.client.model.block.PipeModel;
 import mod.maxbogomol.wizards_reborn.client.render.block.*;
 import mod.maxbogomol.wizards_reborn.common.block.baulk.BaulkBlock;
@@ -37,6 +38,7 @@ import mod.maxbogomol.wizards_reborn.common.item.SaltLanternItem;
 import mod.maxbogomol.wizards_reborn.common.item.SaltTorchItem;
 import mod.maxbogomol.wizards_reborn.common.item.equipment.SmokingPipeItem;
 import mod.maxbogomol.wizards_reborn.registry.client.WizardsRebornModels;
+import mod.maxbogomol.wizards_reborn.registry.common.item.WizardsRebornItems;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -1998,6 +2000,10 @@ public class SillyOdditiesWizardsReborn {
                 ModelsLoadedOnly.soulwoodPlanksCrossBaulk.init(event.getModelManager());
                 ModelsLoadedOnly.soulwoodTilesCrossBaulk.init(event.getModelManager());
             }
+        }
+
+        public static void addResourcePackEggItems() {
+            SillyOdditiesResourcePacks.eggItems.add(WizardsRebornItems.SNIFFALO_SPAWN_EGG.get());
         }
     }
 
