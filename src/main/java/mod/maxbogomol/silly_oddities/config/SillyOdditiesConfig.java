@@ -5,7 +5,7 @@ import org.apache.commons.lang3.tuple.Pair;
 
 public class SillyOdditiesConfig {
     public static ForgeConfigSpec.ConfigValue<Boolean>
-            TUFF_DATAPACK, COPPER_DATAPACK, PLANTS_DATAPACK, BUNDLES_DATAPACK, PAINTINGS_DATAPACK, LODESTONE_DATAPACK,
+            TUFF_DATAPACK, COPPER_DATAPACK, PLANTS_DATAPACK, BUNDLES_DATAPACK, PAINTINGS_DATAPACK, LODESTONE_DATAPACK, DYES_DATAPACK,
             WIZRDS_REBORN_INTEGRATION_DATAPACK,
             CACTUS_FLOWER_GROW, CACTUS_FLOWER_GROW_CHECK;
 
@@ -17,6 +17,7 @@ public class SillyOdditiesConfig {
         BUNDLES_DATAPACK = builder.comment("Enables bundles Data Pack").comment("Requires a world reload").define("bundlesDatapack", true);
         PAINTINGS_DATAPACK = builder.comment("Enables paintings Data Pack").comment("Requires a world reload").define("paintingsDatapack", true);
         LODESTONE_DATAPACK = builder.comment("Enables lodestone Data Pack").comment("Requires a world reload").define("lodestoneDatapack", true);
+        DYES_DATAPACK = builder.comment("Enables dyes Data Pack").comment("Requires a world reload").define("dyesDatapack", true);
 
         builder.comment("Integrations").push("integrations");
         WIZRDS_REBORN_INTEGRATION_DATAPACK = builder.comment("Enables Wizard's Reborn integration Data Pack").comment("Requires a world reload").define("wizardsRebornIntegrationDatapack", true);

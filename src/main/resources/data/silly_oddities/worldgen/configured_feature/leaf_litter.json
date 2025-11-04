@@ -179,6 +179,18 @@
             "type": "minecraft:matching_blocks",
             "blocks": "minecraft:air"
           }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "silly_oddities:leaf_litter_may_spawn_on",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          }
         }
       ]
     },

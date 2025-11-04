@@ -25,7 +25,7 @@ public class SillyOdditiesDataPacks {
                 if (SillyOdditiesConfig.BUNDLES_DATAPACK.get()) addPack(event, "bundles");
                 if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) addPack(event, "paintings");
                 if (SillyOdditiesConfig.LODESTONE_DATAPACK.get()) addPack(event, "lodestone");
-                if (SillyOdditiesConfig.LODESTONE_DATAPACK.get()) addPack(event, "dyes");
+                if (SillyOdditiesConfig.DYES_DATAPACK.get()) addPack(event, "dyes");
 
                 if (SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) addPack(event, "integration/wizards_reborn");
             }
