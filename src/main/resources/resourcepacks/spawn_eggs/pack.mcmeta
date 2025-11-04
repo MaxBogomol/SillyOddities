@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"description": "Spawn Eggs",
+		"description": "Spawn Eggs (needs to enable config)",
 		"pack_format": 15
 	}
 }

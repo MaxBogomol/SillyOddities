@@ -1,6 +1,7 @@
 package mod.maxbogomol.silly_oddities.mixin.client;
 
 import mod.maxbogomol.silly_oddities.common.entity.ISillyBat;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.ambient.Bat;
 import org.spongepowered.asm.mixin.Mixin;
@@ -28,14 +29,16 @@ public abstract class BatMixin implements ISillyBat {
 
     @Inject(method = "tick", at = @At("TAIL"))
     private void silly_oddities$tick(CallbackInfo ci) {
-        Bat self = (Bat) ((Object) this);
-        if (self instanceof ISillyBat sillyBat) {
-            if (self.isResting()) {
-                sillyBat.silly_oddities$getFlyAnimationState().stop();
-                sillyBat.silly_oddities$getRestAnimationState().startIfStopped(self.tickCount);
-            } else {
-                sillyBat.silly_oddities$getRestAnimationState().stop();
-                sillyBat.silly_oddities$getFlyAnimationState().startIfStopped(self.tickCount);
+        if (SillyOdditiesClientConfig.BAT_RESOURCEPACK.get()) {
+            Bat self = (Bat) ((Object) this);
+            if (self instanceof ISillyBat sillyBat) {
+                if (self.isResting()) {
+                    sillyBat.silly_oddities$getFlyAnimationState().stop();
+                    sillyBat.silly_oddities$getRestAnimationState().startIfStopped(self.tickCount);
+                } else {
+                    sillyBat.silly_oddities$getRestAnimationState().stop();
+                    sillyBat.silly_oddities$getFlyAnimationState().startIfStopped(self.tickCount);
+                }
             }
         }
     }

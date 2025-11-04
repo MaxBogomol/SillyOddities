@@ -2,6 +2,7 @@ package mod.maxbogomol.silly_oddities.mixin.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import mod.maxbogomol.silly_oddities.client.model.item.entity.SillyBatModel;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
 import mod.maxbogomol.silly_oddities.registry.client.SillyOdditiesModels;
 import net.minecraft.client.model.BatModel;
 import net.minecraft.client.renderer.entity.BatRenderer;
@@ -22,18 +23,24 @@ public abstract class BatRendererMixin extends MobRenderer<Bat, BatModel> {
 
     @Inject(at = @At("RETURN"), method = "<init>")
     private void silly_oddities$BatRenderer(EntityRendererProvider.Context context, CallbackInfo ci) {
-        BatRenderer self = (BatRenderer) ((Object) this);
-        self.model = new SillyBatModel(context.bakeLayer(SillyOdditiesModels.SILLY_BAT_LAYER));
+        if (SillyOdditiesClientConfig.BAT_RESOURCEPACK.get()) {
+            BatRenderer self = (BatRenderer) ((Object) this);
+            self.model = new SillyBatModel(context.bakeLayer(SillyOdditiesModels.SILLY_BAT_LAYER));
+        }
     }
 
     @Inject(at = @At("HEAD"), method = "scale*", cancellable = true)
     public void silly_oddities$scale(Bat livingEntity, PoseStack poseStack, float partialTickTime, CallbackInfo ci) {
-        ci.cancel();
+        if (SillyOdditiesClientConfig.BAT_RESOURCEPACK.get()) {
+            ci.cancel();
+        }
     }
 
     @Inject(at = @At("HEAD"), method = "setupRotations*", cancellable = true)
     public void silly_oddities$setupRotations(Bat livingEntity, PoseStack poseStack, float ageInTicks, float rotationYaw, float partialTicks, CallbackInfo ci) {
-        ci.cancel();
-        super.setupRotations(livingEntity, poseStack, ageInTicks, rotationYaw, partialTicks);
+        if (SillyOdditiesClientConfig.BAT_RESOURCEPACK.get()) {
+            ci.cancel();
+            super.setupRotations(livingEntity, poseStack, ageInTicks, rotationYaw, partialTicks);
+        }
     }
 }
