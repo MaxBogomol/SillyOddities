@@ -1,4 +1,4 @@
-package mod.maxbogomol.silly_oddities.client.model.item.entity;
+package mod.maxbogomol.silly_oddities.client.model.entity;
 
 import mod.maxbogomol.silly_oddities.common.entity.ISillyBat;
 import net.minecraft.client.model.BatModel;

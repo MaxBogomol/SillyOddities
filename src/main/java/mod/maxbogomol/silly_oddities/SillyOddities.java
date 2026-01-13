@@ -14,9 +14,7 @@ import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesItems;
 import mod.maxbogomol.silly_oddities.registry.common.painting.SillyOdditiesPaintings;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -73,13 +71,5 @@ public class SillyOddities {
 
     public static void hi() {
 
-    }
-
-    @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
-    public static class RegistryEvents {
-        @SubscribeEvent
-        public static void registerCaps(RegisterCapabilitiesEvent event) {
-
-        }
     }
 }

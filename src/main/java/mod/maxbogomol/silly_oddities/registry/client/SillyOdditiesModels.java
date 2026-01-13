@@ -5,7 +5,7 @@ import mod.maxbogomol.fluffy_fur.client.model.item.CustomModel;
 import mod.maxbogomol.fluffy_fur.registry.client.FluffyFurModels;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.client.model.item.NothingItemModel;
-import mod.maxbogomol.silly_oddities.client.model.item.entity.SillyBatModel;
+import mod.maxbogomol.silly_oddities.client.model.entity.SillyBatModel;
 import mod.maxbogomol.silly_oddities.client.render.item.SillyOdditiesItemRenderer;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesItems;

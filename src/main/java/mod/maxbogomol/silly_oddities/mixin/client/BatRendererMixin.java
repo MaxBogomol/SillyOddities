@@ -1,7 +1,7 @@
 package mod.maxbogomol.silly_oddities.mixin.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import mod.maxbogomol.silly_oddities.client.model.item.entity.SillyBatModel;
+import mod.maxbogomol.silly_oddities.client.model.entity.SillyBatModel;
 import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
 import mod.maxbogomol.silly_oddities.registry.client.SillyOdditiesModels;
 import net.minecraft.client.model.BatModel;

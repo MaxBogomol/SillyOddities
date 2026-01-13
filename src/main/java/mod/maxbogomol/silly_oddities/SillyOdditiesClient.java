@@ -2,9 +2,12 @@ package mod.maxbogomol.silly_oddities;
 
 import mod.maxbogomol.fluffy_fur.FluffyFurClient;
 import mod.maxbogomol.fluffy_fur.client.gui.screen.FluffyFurMod;
+import mod.maxbogomol.fluffy_fur.client.language.LanguageHandler;
+import mod.maxbogomol.fluffy_fur.client.splash.SplashHandler;
 import mod.maxbogomol.silly_oddities.client.event.SillyOdditiesClientEvents;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesCreativeTabs;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import java.awt.*;
+import java.util.List;
 import java.util.Random;
 
 public class SillyOdditiesClient {
@@ -49,6 +53,9 @@ public class SillyOdditiesClient {
     }
 
     public static void setupSplashes() {
-
+        List<String> strings = LanguageHandler.getStringsFromFile(new ResourceLocation(SillyOddities.MOD_ID, "texts/splashes.txt"));
+        for (String string : strings) {
+            SplashHandler.addSplash(string);
+        }
     }
 }

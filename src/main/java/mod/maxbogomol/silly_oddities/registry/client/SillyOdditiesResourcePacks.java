@@ -32,8 +32,12 @@ public class SillyOdditiesResourcePacks {
                 addPack(event, "spawn_eggs");
                 addPack(event, "dyes");
                 addPack(event, "clouds");
+                addPack(event, "shadow");
                 addPack(event, "ghast");
                 addPack(event, "bat");
+                addPack(event, "zombie_horse");
+                addPack(event, "horse_leather_armor_classic");
+                addPack(event, "horse_leather_armor");
             }
         }
     }
