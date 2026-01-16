@@ -482,6 +482,74 @@
       "required": false
     },
     {
+      "id": "silly_oddities:cherry_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_cherry_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:stripped_cherry_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_planks_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_planks_cross_baulk",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_pedestal",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_glass_frame",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_wissen_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_light_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_fluid_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_steam_casing",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:gilded_cherry_planks",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_salt_lantern",
+      "required": false
+    },
+    {
+      "id": "silly_oddities:cherry_salt_campfire",
+      "required": false
+    },
+    {
       "id": "silly_oddities:bamboo_baulk",
       "required": false
     },
