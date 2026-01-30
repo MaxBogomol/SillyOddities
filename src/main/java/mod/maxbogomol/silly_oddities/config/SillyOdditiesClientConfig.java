@@ -6,7 +6,8 @@ import org.apache.commons.lang3.tuple.Pair;
 public class SillyOdditiesClientConfig {
     public static ForgeConfigSpec.ConfigValue<Boolean>
             FIREFLY_BUSH_EFFECT, FIREFLIES_AMBIENT_EFFECT,
-            SPAWN_EGGS_RESOURCEPACK, BAT_RESOURCEPACK;
+            SPAWN_EGGS_RESOURCEPACK, BAT_RESOURCEPACK,
+            EMPTY_AIR_OVERLAY;
 
     public SillyOdditiesClientConfig(ForgeConfigSpec.Builder builder) {
         builder.comment("Graphics").push("graphics");
@@ -20,6 +21,10 @@ public class SillyOdditiesClientConfig {
         builder.comment("Resource Packs").push("resourcepacks");
         SPAWN_EGGS_RESOURCEPACK = builder.comment("Enables fixing egg colors for Spawn Eggs Resource Pack").define("spawnEggsResourcepack", false);
         BAT_RESOURCEPACK = builder.comment("Enables bat model and animations for Bat Resource Pack").comment("Requires a resource packs reload").define("batResourcepack", false);
+        builder.pop();
+
+        builder.comment("Overlay").push("overlay");
+        EMPTY_AIR_OVERLAY = builder.comment("Enable empty air overlay.").define("emptyAirOverlay", true);
         builder.pop();
     }
 

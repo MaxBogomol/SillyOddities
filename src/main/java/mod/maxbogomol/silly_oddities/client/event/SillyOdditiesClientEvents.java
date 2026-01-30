@@ -4,6 +4,7 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.client.effect.SillyOdditiesEffects;
 import mod.maxbogomol.silly_oddities.common.item.NothingItem;
+import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.resources.ResourceLocation;
@@ -42,23 +43,27 @@ public class SillyOdditiesClientEvents {
     }
 
     public static void drawAirGui(GuiGraphics gui) {
-        Minecraft minecraft = Minecraft.getInstance();
-        Player player = SillyOddities.proxy.getPlayer();
+        if (SillyOdditiesClientConfig.EMPTY_AIR_OVERLAY.get()) {
+            Minecraft minecraft = Minecraft.getInstance();
+            Player player = SillyOddities.proxy.getPlayer();
 
-        if (minecraft.gui instanceof ForgeGui forgeGui) {
-            int left = gui.guiWidth() / 2 + 91;
-            int top = gui.guiHeight() - forgeGui.rightHeight;
+            if (minecraft.gui instanceof ForgeGui forgeGui) {
+                if (!minecraft.options.hideGui && forgeGui.shouldDrawSurvivalElements()) {
+                    int left = gui.guiWidth() / 2 + 91;
+                    int top = gui.guiHeight() - forgeGui.rightHeight;
 
-            RenderSystem.enableBlend();
-            int air = player.getAirSupply();
-            if (player.isEyeInFluidType(ForgeMod.WATER_TYPE.get()) || air < 300) {
-                int full = Mth.ceil((double) (air - 2) * 10.0D / 300.0D);
+                    RenderSystem.enableBlend();
+                    int air = player.getAirSupply();
+                    if (player.isEyeInFluidType(ForgeMod.WATER_TYPE.get()) || air < 300) {
+                        int full = Mth.ceil((double) (air - 2) * 10.0D / 300.0D);
 
-                for (int i = 10; i > full; --i) {
-                    gui.blit(AIR_EMPTY_LOCATION, left - i * 8 - 1, top, 0, 0, 9, 9, 9, 9);
+                        for (int i = 10; i > full; --i) {
+                            gui.blit(AIR_EMPTY_LOCATION, left - i * 8 - 1, top, 0, 0, 9, 9, 9, 9);
+                        }
+                    }
+                    RenderSystem.disableBlend();
                 }
             }
-            RenderSystem.disableBlend();
         }
     }
 }
