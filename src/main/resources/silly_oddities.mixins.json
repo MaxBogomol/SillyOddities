@@ -10,6 +10,7 @@
   "client": [
     "client.BatMixin",
     "client.BatRendererMixin",
+    "client.HorseArmorLayerMixin",
     "client.SpawnEggItemMixin"
   ],
   "minVersion": "0.8",

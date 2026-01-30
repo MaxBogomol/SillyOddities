@@ -10,6 +10,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.BundleItem;
+import net.minecraft.world.item.HorseArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -109,6 +110,8 @@ public class SillyOdditiesItems {
     public static final RegistryObject<Item> MAGENTA_BUNDLE = ITEMS.register("magenta_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> PINK_BUNDLE = ITEMS.register("pink_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> RAINBOW_BUNDLE = ITEMS.register("rainbow_bundle", () -> new BundleItem(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> NETHERITE_HORSE_ARMOR = ITEMS.register("netherite_horse_armor", () -> new HorseArmorItem(19, new ResourceLocation(SillyOddities.MOD_ID, "textures/entity/horse/armor/horse_armor_netherite.png"), new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> NOTHING = ITEMS.register("nothing", () -> new NothingItem(new Item.Properties()));
 

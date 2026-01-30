@@ -74,6 +74,13 @@ public class SillyOdditiesCreativeTabs {
                     .withSubTabImage(new ResourceLocation(SillyOddities.MOD_ID, "textures/gui/silly_oddities_sub_tab.png"))
                     .setSubShow(() -> SillyOdditiesConfig.BUNDLES_DATAPACK.get());
 
+    public static final SubCreativeTab HORSE_ARMOR =
+            SubCreativeTab.create().subIcon(() -> new ItemStack(SillyOdditiesItems.NETHERITE_HORSE_ARMOR.get()))
+                    .title(Component.translatable("creative_tab.silly_oddities").append(": ").append(Component.translatable("creative_tab.silly_oddities.sub.horse_armor")))
+                    .subTitle(Component.translatable("creative_tab.silly_oddities.sub.horse_armor"))
+                    .withSubTabImage(new ResourceLocation(SillyOddities.MOD_ID, "textures/gui/silly_oddities_sub_tab.png"))
+                    .setSubShow(() -> SillyOdditiesConfig.HORSE_ARMOR_DATAPACK.get());
+
     public static final SubCreativeTab PAINTINGS =
             SubCreativeTab.create().subIcon(() -> new ItemStack(Items.PAINTING))
                     .title(Component.translatable("creative_tab.silly_oddities").append(": ").append(Component.translatable("creative_tab.silly_oddities.sub.paintings")))
@@ -99,6 +106,7 @@ public class SillyOdditiesCreativeTabs {
             multiCreativeTab.addSubTab(COPPER);
             multiCreativeTab.addSubTab(PLANTS);
             multiCreativeTab.addSubTab(BUNDLES);
+            multiCreativeTab.addSubTab(HORSE_ARMOR);
             multiCreativeTab.addSubTab(PAINTINGS);
 
             if (SillyOdditiesWizardsReborn.isLoaded()) {
@@ -207,6 +215,11 @@ public class SillyOdditiesCreativeTabs {
                 addInSub(event, BUNDLES, SillyOdditiesItems.MAGENTA_BUNDLE);
                 addInSub(event, BUNDLES, SillyOdditiesItems.PINK_BUNDLE);
                 addInSub(event, BUNDLES, SillyOdditiesItems.RAINBOW_BUNDLE);
+                added = true;
+            }
+
+            if (SillyOdditiesConfig.HORSE_ARMOR_DATAPACK.get()) {
+                addInSub(event, HORSE_ARMOR, SillyOdditiesItems.NETHERITE_HORSE_ARMOR);
                 added = true;
             }
 

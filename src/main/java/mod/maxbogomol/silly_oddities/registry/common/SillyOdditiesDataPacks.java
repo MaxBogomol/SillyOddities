@@ -23,6 +23,7 @@ public class SillyOdditiesDataPacks {
                 if (SillyOdditiesConfig.COPPER_DATAPACK.get()) addPack(event, "copper");
                 if (SillyOdditiesConfig.PLANTS_DATAPACK.get()) addPack(event, "plants");
                 if (SillyOdditiesConfig.BUNDLES_DATAPACK.get()) addPack(event, "bundles");
+                if (SillyOdditiesConfig.HORSE_ARMOR_DATAPACK.get()) addPack(event, "horse_armor");
                 if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) addPack(event, "paintings");
                 if (SillyOdditiesConfig.LODESTONE_DATAPACK.get()) addPack(event, "lodestone");
                 if (SillyOdditiesConfig.DYES_DATAPACK.get()) addPack(event, "dyes");
