@@ -3,6 +3,11 @@
 [![](https://img.shields.io/badge/%20-LICENSE%20GPL--2.0-blue?style=for-the-badge&color=blue&logo=github&logoColor=000000&labelColor=FFFFFF)](https://github.com/MaxBogomol/SillyOddities/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/1155188824360624148?style=for-the-badge&color=6aa84f&logo=discord&label=DISCORD)](https://discord.gg/cKf55qNugw)
 
+### Requires:
+[![FluffyFur](https://img.shields.io/badge/%20-FLUFFY%20FUR-5800ff?style=for-the-badge&color=d77787&logo=githubsponsors&logoColor=000000&labelColor=FFFFFF)](https://github.com/MaxBogomol/FluffyFur/tree/master)
+
+# About:
+
 "Silly Oddities" - a mod that adds goofy compat with other silly mods & partial backport from vanilla.
 
 ![](https://fluffy-village.dev/assets/creations/silly_oddities/logo.png)
