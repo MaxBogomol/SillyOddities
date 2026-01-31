@@ -5,6 +5,7 @@
   "creative_tab.silly_oddities.sub.copper": "Мѣдь",
   "creative_tab.silly_oddities.sub.plants": "Растенія",
   "creative_tab.silly_oddities.sub.bundles": "Мѣшки",
+  "creative_tab.silly_oddities.sub.horse_armor": "Конскіе доспѣхи",
   "creative_tab.silly_oddities.sub.paintings": "Картины",
   "creative_tab.silly_oddities.sub.wizards_reborn": "Wizard's Reborn",
 
@@ -97,6 +98,8 @@
   "item.silly_oddities.magenta_bundle": "Пурпурный мѣшокъ",
   "item.silly_oddities.pink_bundle": "Розовый мѣшокъ",
   "item.silly_oddities.rainbow_bundle": "Радужный мѣшокъ",
+
+  "item.silly_oddities.netherite_horse_armor": "Нѣдритовые конскіе доспѣхи",
 
   "block.silly_oddities.oak_baulk": "Дубовое полѣно",
   "block.silly_oddities.oak_cross_baulk": "Дубовое поперечное полѣно",

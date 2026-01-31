@@ -5,6 +5,7 @@
   "creative_tab.silly_oddities.sub.copper": "Copper",
   "creative_tab.silly_oddities.sub.plants": "Plants",
   "creative_tab.silly_oddities.sub.bundles": "Bundles",
+  "creative_tab.silly_oddities.sub.horse_armor": "Horse Armor",
   "creative_tab.silly_oddities.sub.paintings": "Paintings",
   "creative_tab.silly_oddities.sub.wizards_reborn": "Wizard's Reborn",
 
@@ -97,6 +98,8 @@
   "item.silly_oddities.magenta_bundle": "Magenta Bundle",
   "item.silly_oddities.pink_bundle": "Pink Bundle",
   "item.silly_oddities.rainbow_bundle": "Rainbow Bundle",
+
+  "item.silly_oddities.netherite_horse_armor": "Netherite Horse Armor",
 
   "block.silly_oddities.oak_baulk": "Oak Baulk",
   "block.silly_oddities.oak_cross_baulk": "Oak Cross Baulk",

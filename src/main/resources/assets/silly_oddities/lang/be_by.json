@@ -5,6 +5,7 @@
   "creative_tab.silly_oddities.sub.copper": "Медзь",
   "creative_tab.silly_oddities.sub.plants": "Расліны",
   "creative_tab.silly_oddities.sub.bundles": "Мяхі",
+  "creative_tab.silly_oddities.sub.horse_armor": "Horse Armor",
   "creative_tab.silly_oddities.sub.paintings": "Карціны",
   "creative_tab.silly_oddities.sub.wizards_reborn": "Wizard's Reborn",
 
@@ -97,6 +98,8 @@
   "item.silly_oddities.magenta_bundle": "Пурпурны мех",
   "item.silly_oddities.pink_bundle": "Ружовы мех",
   "item.silly_oddities.rainbow_bundle": "Вясёлкавы мех",
+
+  "item.silly_oddities.netherite_horse_armor": "Netherite Horse Armor",
 
   "block.silly_oddities.oak_baulk": "Дубовае палена",
   "block.silly_oddities.oak_cross_baulk": "Дубовае папярочнае палена",
