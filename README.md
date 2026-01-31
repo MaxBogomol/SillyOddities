@@ -6,6 +6,8 @@
 ### Requires:
 [![FluffyFur](https://img.shields.io/badge/%20-FLUFFY%20FUR-5800ff?style=for-the-badge&color=d77787&logo=githubsponsors&logoColor=000000&labelColor=FFFFFF)](https://github.com/MaxBogomol/FluffyFur/tree/master)
 
+### [The Fluffy Village](https://fluffy-village.dev/pages/eng/creations/silly_oddities.html)
+
 # About:
 
 "Silly Oddities" - a mod that adds goofy compat with other silly mods & partial backport from vanilla.
@@ -44,3 +46,4 @@ Wizard's Reborn wooden blocks from Malum wood
 #
 
 You can visit our **[Discord Server](https://discord.gg/cKf55qNugw)** to suggest your ideas or receive news about development.
+
