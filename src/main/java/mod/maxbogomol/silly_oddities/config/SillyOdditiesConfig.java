@@ -19,8 +19,8 @@ public class SillyOdditiesConfig {
         PAINTINGS_DATAPACK = builder.comment("Enables paintings Data Pack").comment("Requires a world reload").define("paintingsDatapack", true);
         LODESTONE_DATAPACK = builder.comment("Enables lodestone Data Pack").comment("Requires a world reload").define("lodestoneDatapack", true);
         DYES_DATAPACK = builder.comment("Enables dyes Data Pack").comment("Requires a world reload").define("dyesDatapack", true);
-        LEAD_DATAPACK = builder.comment("Enables lead Data Pack").comment("Requires a world reload").define("dyesDatapack", true);
-        NAME_TAG_DATAPACK = builder.comment("Enables name tag Data Pack").comment("Requires a world reload").define("dyesDatapack", true);
+        LEAD_DATAPACK = builder.comment("Enables lead Data Pack").comment("Requires a world reload").define("leadDatapack", true);
+        NAME_TAG_DATAPACK = builder.comment("Enables name tag Data Pack").comment("Requires a world reload").define("nameTagDatapack", true);
 
         builder.comment("Integrations").push("integrations");
         WIZRDS_REBORN_INTEGRATION_DATAPACK = builder.comment("Enables Wizard's Reborn integration Data Pack").comment("Requires a world reload").define("wizardsRebornIntegrationDatapack", true);
