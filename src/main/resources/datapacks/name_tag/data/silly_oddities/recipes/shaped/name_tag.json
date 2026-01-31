@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " X",
+    "# "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "tag": "forge:nuggets"
+    }
+  },
+  "result": {
+    "item": "minecraft:name_tag"
+  }
+}

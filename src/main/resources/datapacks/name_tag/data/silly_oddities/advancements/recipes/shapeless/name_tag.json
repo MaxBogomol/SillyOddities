@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_paper": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:paper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_paper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silly_oddities:shaped/name_tag"
+    ]
+  },
+  "sends_telemetry_event": false
+}

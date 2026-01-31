@@ -32,7 +32,7 @@
   ],
   "rewards": {
     "recipes": [
-      "silly_oddities:shaped/lodestone"
+      "minecraft:lodestone"
     ]
   },
   "sends_telemetry_event": false

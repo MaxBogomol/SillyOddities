@@ -46,8 +46,8 @@ public class NothingItem extends SillyOdditiesRenderItem {
         if (SillyOdditiesConfig.COPPER_DATAPACK.get()) enabled++;
         if (SillyOdditiesConfig.PLANTS_DATAPACK.get()) enabled++;
         if (SillyOdditiesConfig.BUNDLES_DATAPACK.get()) enabled++;
+        if (SillyOdditiesConfig.HORSE_ARMOR_DATAPACK.get()) enabled++;
         if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) enabled++;
-        if (SillyOdditiesConfig.LODESTONE_DATAPACK.get()) enabled++;
 
         if (SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) enabled++;
 
