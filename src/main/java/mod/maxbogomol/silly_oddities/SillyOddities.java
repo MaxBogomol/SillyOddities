@@ -28,8 +28,8 @@ import org.apache.logging.log4j.Logger;
 public class SillyOddities {
     public static final String MOD_ID = "silly_oddities";
     public static final String NAME = "Silly Oddities";
-    public static final String VERSION = "0.1.4";
-    public static final int VERSION_NUMBER = 5;
+    public static final String VERSION = "0.1.5";
+    public static final int VERSION_NUMBER = 6;
 
     public static final ISidedProxy proxy = DistExecutor.unsafeRunForDist(() -> ClientProxy::new, () -> ServerProxy::new);
     public static final Logger LOGGER = LogManager.getLogger();
