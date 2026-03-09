@@ -7,11 +7,11 @@ import mod.maxbogomol.silly_oddities.common.item.GrassBushItem;
 import mod.maxbogomol.silly_oddities.common.item.NothingItem;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.core.cauldron.CauldronInteraction;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.BundleItem;
-import net.minecraft.world.item.HorseArmorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.LayeredCauldronBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
@@ -140,6 +140,40 @@ public class SillyOdditiesItems {
             bundleItemProperties(MAGENTA_BUNDLE.get());
             bundleItemProperties(PINK_BUNDLE.get());
             bundleItemProperties(RAINBOW_BUNDLE.get());
+
+            CauldronInteraction DYED_BUNDLE = (blockState, level, blockPos, player, interactionHand, itemStack) -> {
+                if (itemStack.is(SillyOdditiesItemTags.DYEABLE_BUNDLES)) {
+                    if (!level.isClientSide()) {
+                        ItemStack newBundle = new ItemStack(Items.BUNDLE);
+                        if (itemStack.hasTag()) {
+                            newBundle.setTag(itemStack.getTag().copy());
+                        }
+                        player.setItemInHand(interactionHand, newBundle);
+                        LayeredCauldronBlock.lowerFillLevel(blockState, level, blockPos);
+                    }
+
+                    return InteractionResult.sidedSuccess(level.isClientSide());
+                }
+
+                return InteractionResult.PASS;
+            };
+
+            CauldronInteraction.WATER.put(WHITE_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(LIGHT_GRAY_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(BLACK_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(BROWN_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(RED_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(ORANGE_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(YELLOW_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(LIME_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(GREEN_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(CYAN_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(LIGHT_BLUE_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(BLUE_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(PURPLE_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(MAGENTA_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(PINK_BUNDLE.get(), DYED_BUNDLE);
+            CauldronInteraction.WATER.put(RAINBOW_BUNDLE.get(), DYED_BUNDLE);
         }
 
         @SubscribeEvent

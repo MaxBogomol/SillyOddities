@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bundles": {
+    "has_dyeable_bundles": {
       "conditions": {
         "items": [
           {
-            "tag": "silly_oddities:bundles"
+            "tag": "silly_oddities:dyeable_bundles"
           }
         ]
       },
@@ -14,12 +14,12 @@
   },
   "requirements": [
     [
-      "has_bundles"
+      "has_dyeable_bundles"
     ]
   ],
   "rewards": {
     "recipes": [
-      "silly_oddities:shapeless/bundles/purple_bundle"
+      "silly_oddities:shapeless/dyeable_bundles/purple_bundle"
     ]
   },
   "sends_telemetry_event": false

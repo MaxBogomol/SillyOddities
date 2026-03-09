@@ -1,10 +1,10 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "silly_oddities:crafting_shapeless_bundles",
   "category": "equipment",
   "group": "dye_bundle",
   "ingredients": [
     {
-      "tag": "silly_oddities:bundles"
+      "tag": "silly_oddities:dyeable_bundles"
     },
     {
       "tag": "forge:dyes/orange"

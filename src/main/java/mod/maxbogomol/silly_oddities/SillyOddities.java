@@ -7,6 +7,7 @@ import mod.maxbogomol.silly_oddities.common.event.SillyOdditiesEvents;
 import mod.maxbogomol.silly_oddities.config.SillyOdditiesClientConfig;
 import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
+import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesRecipes;
 import mod.maxbogomol.silly_oddities.registry.common.SillyOdditiesSounds;
 import mod.maxbogomol.silly_oddities.registry.common.block.SillyOdditiesBlocks;
 import mod.maxbogomol.silly_oddities.registry.common.item.SillyOdditiesCreativeTabs;
@@ -41,6 +42,7 @@ public class SillyOddities {
         SillyOdditiesBlocks.register(eventBus);
         SillyOdditiesSounds.register(eventBus);
         SillyOdditiesPaintings.register(eventBus);
+        SillyOdditiesRecipes.register(eventBus);
 
         SillyOdditiesWizardsReborn.init(eventBus);
 

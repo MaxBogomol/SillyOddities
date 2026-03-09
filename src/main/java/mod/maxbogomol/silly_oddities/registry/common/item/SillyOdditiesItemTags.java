@@ -8,4 +8,5 @@ import net.minecraft.world.item.Item;
 
 public class SillyOdditiesItemTags {
     public static final TagKey<Item> BUNDLES = TagKey.create(Registries.ITEM, new ResourceLocation(SillyOddities.MOD_ID, "bundles"));
+    public static final TagKey<Item> DYEABLE_BUNDLES = TagKey.create(Registries.ITEM, new ResourceLocation(SillyOddities.MOD_ID, "dyeable_bundles"));
 }
