@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_leather": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "silly_oddities:shaped/saddle"
+    ]
+  },
+  "sends_telemetry_event": false
+}
