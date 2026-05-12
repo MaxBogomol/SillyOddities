@@ -123,23 +123,25 @@ public class SillyOdditiesItems {
     public static class ClientRegistryEvents {
         @SubscribeEvent
         public static void registerItems(FMLClientSetupEvent event) {
-            bundleItemProperties(WHITE_BUNDLE.get());
-            bundleItemProperties(LIGHT_GRAY_BUNDLE.get());
-            bundleItemProperties(GRAY_BUNDLE.get());
-            bundleItemProperties(BLACK_BUNDLE.get());
-            bundleItemProperties(BROWN_BUNDLE.get());
-            bundleItemProperties(RED_BUNDLE.get());
-            bundleItemProperties(ORANGE_BUNDLE.get());
-            bundleItemProperties(YELLOW_BUNDLE.get());
-            bundleItemProperties(LIME_BUNDLE.get());
-            bundleItemProperties(GREEN_BUNDLE.get());
-            bundleItemProperties(CYAN_BUNDLE.get());
-            bundleItemProperties(LIGHT_BLUE_BUNDLE.get());
-            bundleItemProperties(BLUE_BUNDLE.get());
-            bundleItemProperties(PURPLE_BUNDLE.get());
-            bundleItemProperties(MAGENTA_BUNDLE.get());
-            bundleItemProperties(PINK_BUNDLE.get());
-            bundleItemProperties(RAINBOW_BUNDLE.get());
+            event.enqueueWork(() -> {
+                bundleItemProperties(WHITE_BUNDLE.get());
+                bundleItemProperties(LIGHT_GRAY_BUNDLE.get());
+                bundleItemProperties(GRAY_BUNDLE.get());
+                bundleItemProperties(BLACK_BUNDLE.get());
+                bundleItemProperties(BROWN_BUNDLE.get());
+                bundleItemProperties(RED_BUNDLE.get());
+                bundleItemProperties(ORANGE_BUNDLE.get());
+                bundleItemProperties(YELLOW_BUNDLE.get());
+                bundleItemProperties(LIME_BUNDLE.get());
+                bundleItemProperties(GREEN_BUNDLE.get());
+                bundleItemProperties(CYAN_BUNDLE.get());
+                bundleItemProperties(LIGHT_BLUE_BUNDLE.get());
+                bundleItemProperties(BLUE_BUNDLE.get());
+                bundleItemProperties(PURPLE_BUNDLE.get());
+                bundleItemProperties(MAGENTA_BUNDLE.get());
+                bundleItemProperties(PINK_BUNDLE.get());
+                bundleItemProperties(RAINBOW_BUNDLE.get());
+            });
 
             CauldronInteraction DYED_BUNDLE = (blockState, level, blockPos, player, interactionHand, itemStack) -> {
                 if (itemStack.is(SillyOdditiesItemTags.DYEABLE_BUNDLES)) {
