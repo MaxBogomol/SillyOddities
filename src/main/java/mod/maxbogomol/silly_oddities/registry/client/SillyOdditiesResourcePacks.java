@@ -2,6 +2,7 @@ package mod.maxbogomol.silly_oddities.registry.client;
 
 import mod.maxbogomol.fluffy_fur.common.pack.PackHandler;
 import mod.maxbogomol.silly_oddities.SillyOddities;
+import mod.maxbogomol.silly_oddities.client.pack.SillyOdditiesResourcePacksReloadListener;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.packs.PackType;
@@ -9,6 +10,7 @@ import net.minecraft.server.packs.repository.Pack;
 import net.minecraft.server.packs.repository.PackSource;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterClientReloadListenersEvent;
 import net.minecraftforge.event.AddPackFindersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -40,6 +42,11 @@ public class SillyOdditiesResourcePacks {
                 addPack(event, "horse_leather_armor_classic");
                 addPack(event, "horse_leather_armor");
             }
+        }
+
+        @SubscribeEvent
+        public static void onRegisterClientReloadListenersEvent(RegisterClientReloadListenersEvent event) {
+            event.registerReloadListener(new SillyOdditiesResourcePacksReloadListener());
         }
     }
 
