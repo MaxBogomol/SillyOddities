@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/air"
+    }
+  },
+  "athena:loader": "athena:ctm",
+  "ctm_textures": {
+    "empty": "silly_oddities:block/gilded_birch_planks_empty",
+    "center": "silly_oddities:block/gilded_birch_planks_center",
+    "horizontal": "silly_oddities:block/gilded_birch_planks_horizontal",
+    "vertical": "silly_oddities:block/gilded_birch_planks_vertical",
+    "particle": "silly_oddities:block/gilded_birch_planks"
+  },
+  "connect_to": {
+    "type": "tag",
+    "tag": "wizards_reborn:gilded"
+  }
+}

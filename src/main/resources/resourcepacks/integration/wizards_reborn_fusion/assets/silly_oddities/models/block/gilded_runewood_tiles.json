@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "silly_oddities:block/gilded_runewood_tiles"
+  },
+  "connections": [
+    {
+      "type": "fluffy_fur:match_block_tag",
+      "block": "wizards_reborn:gilded"
+    }
+  ],
+  "loader": "fusion:model",
+  "type": "fusion:connecting"
+}

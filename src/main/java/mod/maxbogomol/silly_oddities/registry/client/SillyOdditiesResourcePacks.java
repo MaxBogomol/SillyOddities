@@ -41,6 +41,11 @@ public class SillyOdditiesResourcePacks {
                 addPack(event, "zombie_horse_spawn_egg");
                 addPack(event, "horse_leather_armor_classic");
                 addPack(event, "horse_leather_armor");
+
+                if (SillyOdditiesWizardsReborn.isLoaded()) {
+                    addPack(event, "integration/wizards_reborn_fusion");
+                    addPack(event, "integration/wizards_reborn_athena");
+                }
             }
         }
 

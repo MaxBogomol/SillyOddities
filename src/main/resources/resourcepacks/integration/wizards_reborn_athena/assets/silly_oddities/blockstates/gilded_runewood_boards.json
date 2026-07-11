@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/air"
+    }
+  },
+  "athena:loader": "athena:ctm",
+  "ctm_textures": {
+    "empty": "silly_oddities:block/gilded_runewood_boards_empty",
+    "center": "silly_oddities:block/gilded_runewood_boards_center",
+    "horizontal": "silly_oddities:block/gilded_runewood_boards_horizontal",
+    "vertical": "silly_oddities:block/gilded_runewood_boards_vertical",
+    "particle": "silly_oddities:block/gilded_runewood_boards"
+  },
+  "connect_to": {
+    "type": "tag",
+    "tag": "wizards_reborn:gilded"
+  }
+}
