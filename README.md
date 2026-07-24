@@ -46,7 +46,7 @@ Wizard's Reborn wooden blocks from Malum wood
 
 #
 
-You can visit our **[Discord Server](https://discord.gg/cKf55qNugw)** to suggest your ideas or receive news about development.
+You can visit our **[Discord Server](https://discord.fluffy-village.dev/)** to suggest your ideas or receive news about development.
 
 
 
