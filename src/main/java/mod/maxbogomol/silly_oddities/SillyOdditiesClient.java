@@ -47,7 +47,7 @@ public class SillyOdditiesClient {
                 .addGithubLink("https://github.com/MaxBogomol/SillyOddities")
                 .addCurseForgeLink("https://www.curseforge.com/minecraft/mc-mods/silly-oddities")
                 .addModrinthLink("https://modrinth.com/mod/very-silly-oddities")
-                .addDiscordLink("https://discord.gg/cKf55qNugw");
+                .addDiscordLink("https://discord.fluffy-village.dev/");
 
         FluffyFurClient.registerMod(MOD_INSTANCE);
     }
