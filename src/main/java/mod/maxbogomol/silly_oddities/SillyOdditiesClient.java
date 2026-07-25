@@ -44,7 +44,7 @@ public class SillyOdditiesClient {
                 .setEdition(SillyOddities.VERSION_NUMBER).setNameColor(new Color(246, 160, 211)).setVersionColor(new Color(222, 126, 105))
                 .setDescription(Component.translatable("mod_description.silly_oddities"))
                 .addFluffyVillageLink("https://fluffy-village.dev/pages/eng/creations/silly_oddities.html")
-                .addGithubLink("https://github.com/MaxBogomol/SillyOddities")
+                .addGitHubLink("https://github.com/MaxBogomol/SillyOddities")
                 .addCurseForgeLink("https://www.curseforge.com/minecraft/mc-mods/silly-oddities")
                 .addModrinthLink("https://modrinth.com/mod/very-silly-oddities")
                 .addDiscordLink("https://discord.fluffy-village.dev/");
