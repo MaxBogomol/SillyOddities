@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "universal_woodworking:vanilla/shaped/logs_to_sticks"
+      "silly_oddities:integration/universal_woodworking/vanilla/shaped/logs_to_sticks"
     ]
   },
   "sends_telemetry_event": false

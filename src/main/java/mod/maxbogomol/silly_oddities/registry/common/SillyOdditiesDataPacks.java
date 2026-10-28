@@ -4,6 +4,7 @@ import mod.maxbogomol.fluffy_fur.common.pack.PackHandler;
 import mod.maxbogomol.silly_oddities.SillyOddities;
 import mod.maxbogomol.silly_oddities.config.SillyOdditiesConfig;
 import mod.maxbogomol.silly_oddities.integration.common.wizards_reborn.SillyOdditiesWizardsReborn;
+import mod.maxbogomol.silly_oddities.integration.common.woodworks.SillyOdditiesWoodworks;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.repository.Pack;
@@ -32,8 +33,8 @@ public class SillyOdditiesDataPacks {
                 if (SillyOdditiesConfig.LEAD_DATAPACK.get()) addPack(event, "lead");
                 if (SillyOdditiesConfig.SADDLE_DATAPACK.get()) addPack(event, "saddle");
 
-                if (SillyOdditiesWizardsReborn.isLoaded() && SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) addPack(event, "integration/wizards_reborn");
-                addPack(event, "integration/universal_woodworking");
+                if (SillyOdditiesWizardsReborn.isLoaded() && SillyOdditiesConfig.WIZARDS_REBORN_INTEGRATION_DATAPACK.get()) addPack(event, "integration/wizards_reborn");
+                if (SillyOdditiesWoodworks.isLoaded() && SillyOdditiesConfig.UNIVERSAL_WOODWORKING_DATAPACK.get()) addPack(event, "integration/universal_woodworking");
             }
         }
     }

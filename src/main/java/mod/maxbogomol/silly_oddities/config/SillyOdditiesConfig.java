@@ -6,7 +6,7 @@ import org.apache.commons.lang3.tuple.Pair;
 public class SillyOdditiesConfig {
     public static ForgeConfigSpec.ConfigValue<Boolean>
             TUFF_DATAPACK, COPPER_DATAPACK, PLANTS_DATAPACK, BUNDLES_DATAPACK, HORSE_ARMOR_DATAPACK, PAINTINGS_DATAPACK, LODESTONE_DATAPACK, DYES_DATAPACK, NAME_TAG_DATAPACK, LEAD_DATAPACK, SADDLE_DATAPACK,
-            WIZRDS_REBORN_INTEGRATION_DATAPACK,
+            WIZARDS_REBORN_INTEGRATION_DATAPACK, UNIVERSAL_WOODWORKING_DATAPACK,
             CACTUS_FLOWER_GROW, CACTUS_FLOWER_GROW_CHECK;
 
     public SillyOdditiesConfig(ForgeConfigSpec.Builder builder) {
@@ -24,7 +24,8 @@ public class SillyOdditiesConfig {
         SADDLE_DATAPACK = builder.comment("Enables saddle Data Pack").comment("Requires a world reload").define("nameTagDatapack", true);
 
         builder.comment("Integrations").push("integrations");
-        WIZRDS_REBORN_INTEGRATION_DATAPACK = builder.comment("Enables Wizard's Reborn integration Data Pack").comment("Requires a world reload").define("wizardsRebornIntegrationDatapack", true);
+        WIZARDS_REBORN_INTEGRATION_DATAPACK = builder.comment("Enables Wizard's Reborn integration Data Pack").comment("Requires a world reload").define("wizardsRebornIntegrationDatapack", true);
+        UNIVERSAL_WOODWORKING_DATAPACK = builder.comment("Enables Universal Woodworking Data Pack").comment("Requires a world reload").define("universalWoodworkingDatapack", true);
         builder.pop();
         builder.pop();
 

@@ -93,7 +93,7 @@ public class SillyOdditiesCreativeTabs {
                     .title(Component.translatable("creative_tab.silly_oddities.sub").append(": ").append(Component.translatable("creative_tab.silly_oddities.sub.wizards_reborn")))
                     .subTitle(Component.translatable("creative_tab.silly_oddities.sub.wizards_reborn"))
                     .withSubTabImage(new ResourceLocation(SillyOddities.MOD_ID, "textures/gui/silly_oddities_sub_tab.png"))
-                    .setSubShow(() -> SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get());
+                    .setSubShow(() -> SillyOdditiesConfig.WIZARDS_REBORN_INTEGRATION_DATAPACK.get());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
@@ -252,7 +252,7 @@ public class SillyOdditiesCreativeTabs {
                 added = true;
             }
 
-            if (SillyOdditiesWizardsReborn.isLoaded() && SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) {
+            if (SillyOdditiesWizardsReborn.isLoaded() && SillyOdditiesConfig.WIZARDS_REBORN_INTEGRATION_DATAPACK.get()) {
                 //OAK
                 addInSub(event, WIZARDS_REBORN, SillyOdditiesWizardsReborn.ItemsLoadedOnly.OAK_BAULK);
                 addInSub(event, WIZARDS_REBORN, SillyOdditiesWizardsReborn.ItemsLoadedOnly.OAK_CROSS_BAULK);

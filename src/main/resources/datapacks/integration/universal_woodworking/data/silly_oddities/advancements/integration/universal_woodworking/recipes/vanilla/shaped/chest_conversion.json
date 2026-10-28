@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "universal_woodworking:vanilla/shaped/chest_conversion"
+      "silly_oddities:integration/universal_woodworking/vanilla/shaped/chest_conversion"
     ]
   },
   "sends_telemetry_event": false

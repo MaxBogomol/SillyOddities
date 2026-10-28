@@ -49,7 +49,7 @@ public class NothingItem extends SillyOdditiesRenderItem {
         if (SillyOdditiesConfig.HORSE_ARMOR_DATAPACK.get()) enabled++;
         if (SillyOdditiesConfig.PAINTINGS_DATAPACK.get()) enabled++;
 
-        if (SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) enabled++;
+        if (SillyOdditiesConfig.WIZARDS_REBORN_INTEGRATION_DATAPACK.get()) enabled++;
 
         if (enabled > 0) {
             list.add(getDataPacksComponent(enabled));
