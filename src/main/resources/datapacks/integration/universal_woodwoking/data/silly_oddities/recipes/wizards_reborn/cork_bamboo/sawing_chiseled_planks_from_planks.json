@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "wizards_reborn"
+            },
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 1,
+        "ingredient": {
+          "item": "wizards_reborn:cork_bamboo_planks"
+        },
+        "result": "wizards_reborn:cork_bamboo_chiseled_planks"
+      }
+    }
+  ]
+}

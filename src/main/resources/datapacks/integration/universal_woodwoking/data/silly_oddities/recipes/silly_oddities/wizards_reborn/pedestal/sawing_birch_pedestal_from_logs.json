@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "silly_oddities"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "wizards_reborn"
+            },
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 1,
+        "ingredient": {
+          "tag": "minecraft:birch_logs"
+        },
+        "result": "silly_oddities:birch_pedestal"
+      }
+    }
+  ]
+}

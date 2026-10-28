@@ -33,6 +33,7 @@ public class SillyOdditiesDataPacks {
                 if (SillyOdditiesConfig.SADDLE_DATAPACK.get()) addPack(event, "saddle");
 
                 if (SillyOdditiesWizardsReborn.isLoaded() && SillyOdditiesConfig.WIZRDS_REBORN_INTEGRATION_DATAPACK.get()) addPack(event, "integration/wizards_reborn");
+                addPack(event, "integration/universal_woodworking");
             }
         }
     }

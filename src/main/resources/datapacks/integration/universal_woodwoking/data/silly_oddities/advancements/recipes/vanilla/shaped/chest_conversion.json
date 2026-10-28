@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chests": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:chests"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_chests"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "universal_woodworking:vanilla/shaped/chest_conversion"
+    ]
+  },
+  "sends_telemetry_event": false
+}

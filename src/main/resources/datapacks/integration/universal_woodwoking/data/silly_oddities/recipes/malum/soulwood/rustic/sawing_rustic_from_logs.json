@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "malum"
+            },
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 4,
+        "ingredient": {
+          "tag": "malum:soulwood_logs"
+        },
+        "result": "malum:rustic_soulwood_planks"
+      }
+    }
+  ]
+}

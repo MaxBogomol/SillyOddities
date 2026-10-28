@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "wizards_reborn"
+            },
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 2,
+        "ingredient": {
+          "tag": "wizards_reborn:innocent_wood_logs"
+        },
+        "result": "wizards_reborn:innocent_wood_trapdoor"
+      }
+    }
+  ]
+}

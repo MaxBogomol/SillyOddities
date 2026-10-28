@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "silly_oddities"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "wizards_reborn"
+            },
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 2,
+        "ingredient": {
+          "tag": "minecraft:bamboo_blocks"
+        },
+        "result": "silly_oddities:stripped_bamboo_baulk"
+      }
+    }
+  ]
+}

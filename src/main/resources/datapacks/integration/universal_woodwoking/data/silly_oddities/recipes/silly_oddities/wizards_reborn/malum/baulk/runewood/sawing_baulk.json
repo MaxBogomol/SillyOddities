@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "silly_oddities"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "wizards_reborn"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "malum"
+            },
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 2,
+        "ingredient": {
+          "item": "malum:runewood_log"
+        },
+        "result": "silly_oddities:runewood_baulk"
+      }
+    }
+  ]
+}
