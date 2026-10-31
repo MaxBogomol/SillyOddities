@@ -31,6 +31,7 @@ public class SillyOdditiesResourcePacks {
         public static void addPackFinders(AddPackFindersEvent event) {
             if (event.getPackType() == PackType.CLIENT_RESOURCES) {
                 addPack(event, "redstone");
+                addPack(event, "jukebox");
                 addPack(event, "spawn_eggs");
                 addPack(event, "dyes");
                 addPack(event, "banner_patterns");
