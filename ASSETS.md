@@ -4,6 +4,7 @@
 - src/main/resources/assets/
 - src/main/resources/resourcepacks/redstone/assets/wizards_reborn/
 - src/main/resources/resourcepacks/spawn_eggs/assets/wizards_reborn/
+- src/main/resources/resourcepacks/banner_patterns/assets/wizards_reborn/
 - src/main/resources/resourcepacks/integration/wizards_reborn_athena/
 - src/main/resources/resourcepacks/integration/wizards_reborn_fusion/
 
@@ -12,8 +13,11 @@
 
 ### MaxBogomol's & OnixTheCat's Assets:
 - src/main/resources/resourcepacks/redstone/pack.png
+- src/main/resources/resourcepacks/jukebox/pack.png
 - src/main/resources/resourcepacks/spawn_eggs/pack.png
 - src/main/resources/resourcepacks/dyes/pack.png
+- src/main/resources/resourcepacks/banner_patterns/pack.png
+- src/main/resources/resourcepacks/map/pack.png
 - src/main/resources/resourcepacks/clouds/pack.png
 - src/main/resources/resourcepacks/shadow/pack.png
 - src/main/resources/resourcepacks/ghast/pack.png
@@ -35,6 +39,8 @@
 - src/main/resources/datapacks/name_tag/pack.png
 - src/main/resources/datapacks/lead/pack.png
 - src/main/resources/datapacks/saddle/pack.png
+- src/main/resources/datapacks/integration/wizards_reborn/pack.png
+- src/main/resources/datapacks/integration/universal_woodworking/pack.png
 
 ### Except:
 - src/main/resources/assets/silly_oddities/sounds/blocks/tuff_bricks/
