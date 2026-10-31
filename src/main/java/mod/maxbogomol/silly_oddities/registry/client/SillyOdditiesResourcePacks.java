@@ -34,6 +34,7 @@ public class SillyOdditiesResourcePacks {
                 addPack(event, "spawn_eggs");
                 addPack(event, "dyes");
                 addPack(event, "banner_patterns");
+                addPack(event, "map");
                 addPack(event, "clouds");
                 addPack(event, "shadow");
                 addPack(event, "ghast");
